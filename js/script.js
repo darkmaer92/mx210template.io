@@ -54,7 +54,7 @@ function fc(){
         } 
 /*4 */ 
         let read = document.querySelector('.read');
-        if (window.pageYOffset > 4300) {
+        if (window.pageYOffset > 4400) {
             read.classList.add('--active_read',);
         } 
         else {
@@ -62,7 +62,7 @@ function fc(){
         } 
 
         let readIN = document.querySelector('.integrate');
-        if (window.pageYOffset > 4300) {
+        if (window.pageYOffset > 4400) {
             readIN.classList.add('--inactiv_integrate');
         } else {
             readIN.classList.remove('--inactiv_integrate');
