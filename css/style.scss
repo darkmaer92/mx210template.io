@@ -28,7 +28,6 @@ ol {
 html {
   font-size: 100%;
   font-family: Montserrat;
-  
 }
 body {
   background: $page-backgound;
@@ -647,17 +646,10 @@ table {
     }
   }
 }
-
 td:first-child,
 th:first-child {
   text-align: left;
   width: 20%;
-}
-.mv210 td:nth-child(2) {
-  /*background-color: rgba(255, 255, 255, 0.1);*/
-}
-.mu210 td:nth-child(5) {
-  /*background-color: rgba(255, 255, 255, 0.1);*/
 }
 tr:last-child td:first-child {
   font-size: 1.2rem;
@@ -741,7 +733,7 @@ tr:last-child {
     margin-right: 20vw;
   }
   .header__nav-conteiner {
-    width: 30%;
+    width: 20%;
     margin-left: 20vw;
   }
   .home-page__conteiner {
