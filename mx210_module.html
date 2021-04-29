@@ -16,10 +16,8 @@
             <div class="header__background"></div>
             <nav class="header__content">
                 <div class="header__nav-conteiner">
-                   <a data-i18n="[html]moreInfoH" href="#">More info</a>
                    <a data-i18n="[html]quoteH" href="#">Quote</a>
-                   <a data-i18n="[html]partnerH" href="#">Partner</a>
-                   <a data-i18n="[html]aboutUsH" href="#">About us</a>
+                   <a data-i18n="[html]moreInfoH" href="#">More info</a>
                 </div>
                 <div class="header__logo"><a href="#" ><img src="images/Logo_akYtec.svg" alt="akytec_logo"></a></div>
             </nav>
@@ -52,6 +50,7 @@
 
 <section class="remout-io">
     <div class="remout-io__header-background"></div>
+
     <h2 id="extend">Remote I/O modules Mx210 come in useful if you need:</h2>
     <nav>
         <div class="remout-io__header-sticky navbar"></div>
@@ -190,9 +189,69 @@
 
 
     </section>
-
 </section>
+<section class="features">
 
+    <ul class="features__conteiner">
+        <li>
+          <div class="features__li-conteiner">
+            <div class="features__li-description" data-i18n="[html]feature_1">
+                USB-powered in the configuration mode
+            </div>
+            <img class="features__img-li" src="images/icon_1.svg" alt="Sufficient" />
+          </div>
+          <div
+            class="features__content-li-description"
+            data-i18n="[html]feature_desc_1"
+          >
+          USB-powered
+          </div>
+        </li>
+
+        <li>
+            <div class="features__li-conteiner">
+              <div class="features__li-description" data-i18n="[html]feature_1">
+                This feature saves commissioning time and enables making similar setups cost-effectively.
+              </div>
+              <img class="features__img-li" src="images/icon_2.svg" alt="Sufficient" />
+            </div>
+            <div
+              class="features__content-li-description"
+              data-i18n="[html]feature_desc_1"
+            >
+            Easy mass deployment
+            </div>
+          </li>
+          <li>
+            <div class="features__li-conteiner">
+              <div class="features__li-description" data-i18n="[html]feature_1">
+                Thanks to the support of the SNTP protocol, the built-in real-time clock is synchronized over the network
+              </div>
+              <img class="features__img-li" src="images/icon_3.svg" alt="Sufficient" />
+            </div>
+            <div
+              class="features__content-li-description"
+              data-i18n="[html]feature_desc_1"
+            >
+            Built-in real-time clock
+            </div>
+          </li>
+          <li>
+            <div class="features__li-conteiner">
+              <div class="features__li-description" data-i18n="[html]feature_1">
+                Each module has FLASH memory for logging. In case of a communication loss, it is possible to recover the missing data.
+              </div>
+              <img class="features__img-li" src="images/icon_4.svg" alt="Sufficient" />
+            </div>
+            <div
+              class="features__content-li-description"
+              data-i18n="[html]feature_desc_1"
+            >
+            Support for data logging
+            </div>
+          </li>
+      </ul>
+</section>
 <section class="description-table">
     <h3>Technical data</h3>
     <!--  MV210  -->
@@ -200,7 +259,10 @@
         <table class="table">
           <tbody>
             <tr>
-              <th class="sticky-col first-col" style="font-weight: 800;font-size: 1.8rem;">MV210-</th>
+                <th colspan="7" class="sticky-col first-col table-title">INPUT MODULES</th>
+             </tr>
+            <tr>
+              <th class="sticky-col first-col table-header">MV210-</th>
               <th class="table-header">101</th>
               <th class="table-header">202</th>
               <th class="table-header">204</th>
@@ -210,66 +272,79 @@
             </tr>
             <tr>
               <td class="sticky-col first-col" data-i18n="td_1">
-                Number of built-in I/O
+                Number of inputs
               </td>
-              <td>26</td>
-              <td>40</td>
-              <td>22</td>
-              <td>26</td>
-              <td>40</td>
-              <td>40</td>
+              <td>8</td>
+              <td>20</td>
+              <td>20</td>
+              <td>32</td>
+              <td>32</td>
+              <td>15</td>
             </tr>
             <tr>
                 <td class="sticky-col first-col" data-i18n="td_1">
-                  Number of built-in I/O
+                  Input signal
                 </td>
-                <td>26</td>
-                <td>40</td>
-                <td>22</td>
-                <td>26</td>
-                <td>40</td>
-                <td>40</td>
+                <td>RTD, TC<br>4-20mA, <a href="#">etc</a></td>
+                <td>Switch contact, NPN/PNP</td>
+                <td>Switch contact, NPN</td>
+                <td>Switch contact, NPN/PNP</td>
+                <td>Switch contact, NPN</td>
+                <td>230 V AC signals<br>Dry contact<br>NPN</td>
               </tr>
               <tr>
                 <td class="sticky-col first-col" data-i18n="td_1">
-                  Number of built-in I/O
+                    Pulse frequency, max.
                 </td>
-                <td>26</td>
-                <td>40</td>
-                <td>22</td>
-                <td>26</td>
-                <td>40</td>
-                <td>40</td>
+                <td>-</td>
+                <td>100 kHz</td>
+                <td>400 Hz</td>
+                <td>100 kHz</td>
+                <td>400 Hz</td>
+                <td>400 Hz</td>
               </tr>
             <tr>
                 <td class="sticky-col first-col" data-i18n="td_1">
-                  Number of built-in I/O
+                    Pulse length, min.
                 </td>
-                <td>26</td>
-                <td>40</td>
-                <td>22</td>
-                <td>26</td>
-                <td>40</td>
-                <td>40</td>
-              </tr>
+                <td>-</td>
+                <td>5 µs (1-8 DI)<br>1 ms (9-20 DI)</td>
+                <td>1 ms</td>
+                <td>5 µs (1-8 DI)<br>1 ms (9-32 DI)</td>
+                <td>1 ms</td>
+                <td>1 ms</td>
+            </tr>
+            <tr>
+                <td class="sticky-col first-col" data-i18n="td_1">
+                    Integrated voltage source
+                </td>
+                <td>-</td>
+                <td>24±3 V</td>
+                <td>no external power supply required<br>
+                    24±3 V (only for NPN inputs)</td>
+                <td>24±3 V</td>
+                <td colspan="2">no external power supply required<br>
+                    24±3 V (only for NPN inputs)</td>
+ 
+            </tr>
               <tr>
                 <td class="sticky-col first-col">PDF</td>
                 <td>
-                  <a
-                    target="_blank"
-                    href="#.pdf"
-                    class="btn_rfq_g btn_1"
-                    data-i18n="[html]_Manual"
-                    >MV210-101</a
-                  >
+                    <a
+                      target="_blank"
+                      href="#.pdf"
+                      class="btn_rfq_g btn_1"
+                      data-i18n="[html]Manual"
+                      >Manual</a
+                    >
                 </td>
                 <td>
                     <a
                       target="_blank"
                       href="#.pdf"
                       class="btn_rfq_g btn_1"
-                      data-i18n="[html]311_Manual"
-                      >MV210-202</a
+                      data-i18n="[html]Manual"
+                      >Manual</a
                     >
                   </td>
                   <td>
@@ -277,8 +352,8 @@
                       target="_blank"
                       href="#.pdf"
                       class="btn_rfq_g btn_1"
-                      data-i18n="[html]311_Manual"
-                      >MV210-204</a
+                      data-i18n="[html]Manual"
+                      >Manual</a
                     >
                   </td>
                   <td>
@@ -286,8 +361,8 @@
                       target="_blank"
                       href="#.pdf"
                       class="btn_rfq_g btn_1"
-                      data-i18n="[html]311_Manual"
-                      >MV210-212</a
+                      data-i18n="[html]Manual"
+                      >Manual</a
                     >
                   </td>
                   <td>
@@ -295,8 +370,8 @@
                       target="_blank"
                       href="#.pdf"
                       class="btn_rfq_g btn_1"
-                      data-i18n="[html]311_Manual"
-                      >MV210-214</a
+                      data-i18n="[html]Manual"
+                      >Manual</a
                     >
                   </td>
                   <td>
@@ -304,11 +379,10 @@
                       target="_blank"
                       href="#.pdf"
                       class="btn_rfq_g btn_1"
-                      data-i18n="[html]311_Manual"
-                      >MV210-221</a
+                      data-i18n="[html]Manual"
+                      >Manual</a
                     >
                   </td>
-
               </tr>
               <tr>
                 <td class="sticky-col first-col last-col" data-i18n="td_10">
@@ -319,7 +393,7 @@
                     type="checkbox"
                     class="conf-device-check"
                     name="device"
-                    value="311"
+                    value="MV210-101"
                   />
                 </td>
                 <td>
@@ -327,35 +401,35 @@
                     type="checkbox"
                     class="conf-device-check"
                     name="device"
-                    value="312"/>
+                    value="MV210-202"/>
                 </td>
                 <td>
                     <input
                       type="checkbox"
                       class="conf-device-check"
                       name="device"
-                      value="312"/>
+                      value="MV210-204"/>
                   </td>
                   <td>
                     <input
                       type="checkbox"
                       class="conf-device-check"
                       name="device"
-                      value="312"/>
+                      value="MV210-212"/>
                   </td>
                   <td>
                     <input
                       type="checkbox"
                       class="conf-device-check"
                       name="device"
-                      value="312"/>
+                      value="MV210-214"/>
                   </td>
                   <td>
                     <input
                       type="checkbox"
                       class="conf-device-check"
                       name="device"
-                      value="312"/>
+                      value="MV210-221"/>
                   </td>
               </tr>
           </tbody>
@@ -366,37 +440,68 @@
         <table class="table">
           <tbody>
             <tr>
-              <td class="sticky-col first-col" style="font-weight: 800;font-size: 1.8rem;">MK210-</td>
+                <th colspan="7" class="sticky-col first-col table-title">DIGITAL INPUT & OUTPUT MODULES</th>
+             </tr>
+            <tr>
+              <td class="sticky-col first-col table-header">MK210-</td>
               <th class="table-header">311</th>
               <th class="table-header">312</th>
             </tr>
             <tr>
               <td class="sticky-col first-col" data-i18n="td_1">
-                Number of built-in I/O
+                Digital inputs
               </td>
-              <td>26</td>
-              <td>40</td>
+              <td>6</td>
+              <td>12</td>
             </tr>
             <tr>
                 <td class="sticky-col first-col" data-i18n="td_1">
-                  Number of built-in I/O
+                    Input signal
                 </td>
-                <td>26</td>
-                <td>40</td>
+                <td>Switch contact<br>NPN</td>
+                <td>Switch contact<br>NPN/PNP</td>
               </tr>
               <tr>
                 <td class="sticky-col first-col" data-i18n="td_1">
-                  Number of built-in I/O
+                    Pulse frequency, max.
                 </td>
-                <td>26</td>
-                <td>40</td>
+                <td>-</td>
+                <td>100 kHz</td>
               </tr>
             <tr>
                 <td class="sticky-col first-col" data-i18n="td_1">
-                  Number of built-in I/O
+                    Pulse length, min.
                 </td>
-                <td>26</td>
-                <td>40</td>
+                <td>1 ms</td>
+                <td>5 µs (1-8 DI)<br>1 ms (9-12 DI)</td>
+              </tr>
+              <tr>
+                <td class="sticky-col first-col" data-i18n="td_1">
+                    Integrated voltage source
+                </td>
+                <td>24±3 V (only for NPN inputs)</td>
+                <td>24±3 V</td>
+              </tr>
+              <tr>
+                <td class="sticky-col first-col" data-i18n="td_1">
+                    Digital outputs
+                </td>
+                <td>8</td>
+                <td>4</td>
+              </tr>
+              <tr>
+                <td class="sticky-col first-col" data-i18n="td_1">
+                    Type
+                </td>
+                <td>Relay output (NO)</td>
+                <td>Relay output (NO)</td>
+              </tr>
+              <tr>
+                <td class="sticky-col first-col" data-i18n="td_1">
+                    Permissible load
+                </td>
+                <td>5 A, 250 V AC cosϕ > 0.4<br>3 A, 30 V DC</td>
+                <td>5 A, 250 V AC cosϕ > 0.4<br>3 A, 30 V DC</td>
               </tr>
               <tr>
                 <td class="sticky-col first-col">PDF</td>
@@ -406,7 +511,7 @@
                     href="#.pdf"
                     class="btn_rfq_g btn_1"
                     data-i18n="[html]311_Manual"
-                    >MK210-311 Manual</a
+                    >Manual</a
                   >
                 </td>
                 <td data-i18n="[html]PR102_Manual_link">
@@ -415,7 +520,7 @@
                     href="#.pdf"
                     class="btn_rfq_g btn_1"
                     data-i18n="[html]312_Manual"
-                    >MK210-312 Manual</a
+                    >Manual</a
                   >
                 </td>
               </tr>
@@ -447,47 +552,62 @@
         <table class="table">
           <tbody>
             <tr>
+                <th colspan="7" class="sticky-col first-col table-title">OUTPUT MODULES</th>
+             </tr>
+            <tr>
               <td class="sticky-col first-col" style="font-weight: 800;font-size: 1.8rem;">MU210-</td>
               <th class="table-header">401</th>
               <th class="table-header">402</th>
-              <th class="table-header">410</th>
+              <th colspan="2" class="table-header">410</th>
               <th class="table-header">501</th>
             </tr>
             <tr>
               <td class="sticky-col first-col" data-i18n="td_1">
-                Number of built-in I/O
+                Number of outputs
               </td>
-              <td>26</td>
-              <td>40</td>
-              <td>22</td>
-              <td>26</td>
+              <td>8</td>
+              <td>16</td>
+              <td colspan="2">16</td>
+              <td>8</td>
             </tr>
             <tr>
                 <td class="sticky-col first-col" data-i18n="td_1">
-                  Number of built-in I/O
+                    Output signal
                 </td>
-                <td>26</td>
-                <td>40</td>
-                <td>22</td>
-                <td>26</td>
+                <td>Relay output (NO)</td>
+                <td>Relay output (NO)</td>
+                <td colspan="2">Transistor output</td>
+                <td>0(4)-20 mA, 0-1(10)V</td>
               </tr>
               <tr>
                 <td class="sticky-col first-col" data-i18n="td_1">
-                  Number of built-in I/O
+                    Permissible load
                 </td>
-                <td>26</td>
-                <td>40</td>
-                <td>22</td>
-                <td>26</td>
+                <td>5 A, 250 V AC cosϕ > 0.4<br>3 A, 30 V DC</td>
+                <td>5 A, 250 V AC cosϕ > 0.4<br>3 A, 30 V DC</td>
+                <td>100 mA, 10...36 V DC</td>
+                <td>800 mA 10...36 V DC</td>
+                <td>-</td>
               </tr>
             <tr>
                 <td class="sticky-col first-col" data-i18n="td_1">
-                  Number of built-in I/O
+                    Pulse frequency, max.
                 </td>
-                <td>26</td>
-                <td>40</td>
-                <td>22</td>
-                <td>26</td>
+                <td>1 Hz</td>
+                <td>1 Hz</td>
+                <td>60 000 Hz</td>
+                <td>10 000 Hz</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td class="sticky-col first-col" data-i18n="td_1">
+                    Pulse length, min.
+                </td>
+                <td>50 ms</td>
+                <td>50 ms</td>
+                <td>10 µs</td>
+                <td>1 µs</td>
+                <td>-</td>
             </tr>
             <tr>
                 <td class="sticky-col first-col">PDF</td>
@@ -496,8 +616,8 @@
                     target="_blank"
                     href="#.pdf"
                     class="btn_rfq_g btn_1"
-                    data-i18n="[html]311_Manual"
-                    >MU210-401 Manual</a
+                    data-i18n="[html]401_Manual"
+                    >Manual</a
                   >
                 </td>
                 <td data-i18n="[html]PR102_Manual_link">
@@ -505,17 +625,17 @@
                     target="_blank"
                     href="#.pdf"
                     class="btn_rfq_g btn_1"
-                    data-i18n="[html]312_Manual"
-                    >MU210-402 Manual</a
+                    data-i18n="[html]402_Manual"
+                    >Manual</a
                   >
                 </td>
-                <td data-i18n="[html]PR102_Manual_link">
+                <td colspan="2" data-i18n="[html]PR102_Manual_link">
                     <a
                       target="_blank"
                       href="#.pdf"
                       class="btn_rfq_g btn_1"
-                      data-i18n="[html]312_Manual"
-                      >MU210-410 Manual</a
+                      data-i18n="[html]410_Manual"
+                      >Manual</a
                     >
                   </td>
                   <td data-i18n="[html]PR102_Manual_link">
@@ -523,8 +643,8 @@
                       target="_blank"
                       href="#.pdf"
                       class="btn_rfq_g btn_1"
-                      data-i18n="[html]312_Manual"
-                      >MU210-501 Manual</a
+                      data-i18n="[html]501_Manual"
+                      >Manual</a
                     >
                   </td>
               </tr>
@@ -537,7 +657,7 @@
                     type="checkbox"
                     class="conf-device-check"
                     name="device"
-                    value="311"
+                    value="401"
                   />
                 </td>
                 <td>
@@ -545,21 +665,21 @@
                     type="checkbox"
                     class="conf-device-check"
                     name="device"
-                    value="312"/>
+                    value="402"/>
                 </td>
-                <td>
+                <td colspan="2">
                     <input
                       type="checkbox"
                       class="conf-device-check"
                       name="device"
-                      value="312"/>
+                      value="410"/>
                   </td>
                   <td>
                     <input
                       type="checkbox"
                       class="conf-device-check"
                       name="device"
-                      value="312"/>
+                      value="501"/>
                   </td>
               </tr>
           </tbody>
@@ -576,7 +696,7 @@
       </div>
 </section>
 <section class="choose-comb">
-    <h3>Choose your own combination</h3>
+    <h3>Select your own device(s):</h3>
     <div >404 Not found</div>
 </section>
 <footer class="footer_conteiner footer">
