@@ -24,7 +24,9 @@
 .footer_top_conteiner,
 .social_block,
 .footer_bottom {
-  margin-left: 20vw;
+  margin: 0 10vw 0 10vw;
+  display: flex;
+  justify-content: space-evenly;
 }
 .footer_top {
   background: linear-gradient(180deg, #05274e 0%, #fcfcfc 150.57%);
@@ -50,7 +52,7 @@
   padding-right: 35px;
 }
 .footer_area {
-  width: 18%;
+  width: 21%;
 }
 .footer_area img {
   width: 180px;

@@ -4,14 +4,19 @@ $header-background: linear-gradient(
   #052951 162.17%
 );
 $page-backgound: linear-gradient(180deg, #040d21 0%, #052951 100%);
-$font-size-navigation: 1.2rem;
+$font-size-header: 1.2rem;
 $font-size-h1: 2.5rem;
-$font-size-h2: 2.5rem;
-$font-size-h3: 2.2rem;
-$font-size-h4: 4rem;
+$font-size-h2: 2.25rem;
+$font-size-h3: 1.4rem;
+$font-size-nav: 1.5rem;
+$font-size-suptext: 1.5rem;
+$font-size-subtext: 1.25rem;
 $font-size-article: 1rem;
-$font-size-article_medium: 0.9rem;
-$font-size-article_regular: 0.9rem;
+$font-size-note: 0.7rem;
+$font-size-table: 0.875;
+$font-size-table-title: 1.8rem;
+$font-size-table-select: 1.2rem;
+
 @import url(style_footer.css);
 
 * {
@@ -74,7 +79,7 @@ h6 {
   a {
     color: #052951;
     margin: 0;
-    font-size: $font-size-navigation;
+    font-size: $font-size-header;
     display: block;
     font-weight: 500;
   }
@@ -93,19 +98,21 @@ h6 {
   color: white;
 }
 .home-page__conteiner {
-  margin: 100px 10vw 0 10vw;
+  margin: 50px 10vw 0 10vw;
 }
 .home-page__content {
   display: flex;
   align-items: center;
-  margin: 50px 0;
+  margin: 0;
+  position: relative;
+  top: 0;
+  left: 0;
   section {
     margin: 0 30px;
     width: 70%;
-    border: 1px solid red;
   }
   p {
-    font-size: 0.7rem;
+    font-size: $font-size-note;
     font-style: normal;
     font-weight: 100;
   }
@@ -115,12 +122,18 @@ h6 {
 }
 .home-page__device-img {
   width: 30%;
-  border: 1px solid red;
-  img {
-    width: 700px;
-    margin-left: -15vw;
-  }
 }
+.home-page__device-img__device {
+  width: 700px;
+  margin-left: -15vw;
+}
+.home-page__device-img__img-mqtt {
+  position: absolute;
+  width: 150px;
+  top: 56%;
+  left: 14%;
+}
+/*text size*/
 .home-page__sup-art {
   font-size: $font-size-article;
   font-style: normal;
@@ -129,36 +142,36 @@ h6 {
   margin: 25px 0;
 }
 .home-page__sub-art {
-  font-size: $font-size-article_medium;
+  font-size: $font-size-article;
   font-style: normal;
   font-weight: 500;
   margin: 25px 0;
 }
-h1 {
+.home-page__conteiner__elem-h1 {
   font-size: $font-size-h1;
   font-style: normal;
   font-weight: 900;
 }
-h2 {
-  font-size: $font-size-h2;
+.home-page__conteiner__elem-h1-sub {
+  font-size: $font-size-h1;
   font-style: normal;
   font-weight: 500;
 }
-h3 {
+.home-page__conteiner__elem-h3 {
   font-size: $font-size-h3;
-  font-size: normal;
   font-weight: normal;
+  font-style: normal;
 }
-h4 {
-  font-size: $font-size-h4;
-  font-size: normal;
-  font-weight: normal;
+.home-page__content__elem-h1-sub {
+  font-size: $font-size-h1;
+  font-style: normal;
+  font-weight: 400;
 }
 .home-page__subparagraph {
   margin: 0 10vw;
   display: flex;
-  h3 {
-    font-size: 3rem;
+  h2 {
+    font-size: $font-size-h1;
     font-size: normal;
     font-weight: 900;
     background: linear-gradient(180deg, #ffffff 33%, rgba(236, 236, 236, 0.42));
@@ -168,22 +181,16 @@ h4 {
     display: table;
   }
   article {
-    width: 70%;
-    margin: 0 30px;
-    border: 1px solid red;
+    width: 100%;
+    margin: 0;
   }
   p {
-    font-size: $font-size-article_regular;
+    font-size: $font-size-article;
     font-style: normal;
     font-weight: 300;
   }
 }
-.home-page__icon {
-  display: flex;
-  align-items: flex-end;
-  min-width: 30%;
-  border: 1px solid red;
-}
+
 /*home-page end*/
 
 /*remout-io*/
@@ -196,12 +203,6 @@ h4 {
   display: flex;
   flex-direction: column;
   margin-bottom: 50px;
-  h2 {
-    color: #0b2349;
-    padding: 25px 0;
-    display: flex;
-    justify-content: center;
-  }
   nav {
     display: flex;
     justify-content: space-between;
@@ -213,10 +214,19 @@ h4 {
   }
   a {
     color: #0b2349;
-    font-size: 1.5rem;
+    font-size: $font-size-nav;
     font-weight: 600;
     text-decoration: none;
   }
+}
+.remout-io__h1,
+.app_extend_h1 {
+  font-size: $font-size-h1;
+  color: #0b2349;
+  padding: 25px 0;
+  display: flex;
+  justify-content: center;
+  font-weight: normal;
 }
 .remout-io__header-background {
   background: linear-gradient(
@@ -282,10 +292,11 @@ h4 {
   color: white;
 }
 /*app_extend */
-.app_extend h3 {
+.app_extend h1 {
   margin: 100px 0 0 5vw;
   color: #0b2349;
   font-weight: 900;
+  display: block;
 }
 .app_extend_form-backround {
   background: linear-gradient(
@@ -315,7 +326,7 @@ h4 {
   }
   article {
     width: 70%;
-    font-size: 1.5rem;
+    font-size: $font-size-suptext;
     margin: 0 25px 50px 0;
   }
 }
@@ -323,15 +334,17 @@ h4 {
   display: flex;
   article {
     color: #052951;
-    font-size: 1.25rem;
-    border: 1px solid red;
+    font-size: $font-size-subtext;
     width: 40%;
-    padding-left: 50px;
+    padding: 0 10px 0 20px;
+  }
+  div {
+    width: 60%;
   }
   iframe {
+    width: 560px * 1.2;
+    height: 315px * 1.2;
     z-index: 1;
-    border: 1px solid red;
-    width: 60%;
     margin-left: -5%;
   }
 }
@@ -339,11 +352,6 @@ h4 {
 /* app_migrate */
 .app_migrate {
   margin: 60px 5vw;
-  border: 1px solid red;
-  h3 {
-    margin: 10px 0 40px 0;
-    text-align: left;
-  }
   span:first-child {
     font-weight: 900;
   }
@@ -351,7 +359,7 @@ h4 {
     font-style: normal;
     font-weight: 300;
     color: white;
-    font-size: 1.7rem;
+    font-size: $font-size-suptext;
     line-height: 150.1%;
     text-align: left;
   }
@@ -360,18 +368,28 @@ h4 {
   text-align: center;
   margin: 60px;
 }
+.app_migrate__h1 {
+  font-size: $font-size-h1;
+  margin: 10px 0 40px 0;
+  text-align: left;
+  font-weight: 900;
+  span {
+    font-weight: 400;
+  }
+}
 /* app_migrate end */
 
 /*app_integrate*/
 .app_integrate {
   position: relative;
-  h3 {
+  h1 {
+    font-size: $font-size-h1;
     margin: 15px 5vw;
     color: #0b2349;
     font-weight: 900;
   }
   article {
-    font-size: 1.5rem;
+    font-size: $font-size-suptext;
     margin: 50px 5vw;
     width: 55vw;
     line-height: 120%;
@@ -414,7 +432,8 @@ h4 {
   position: relative;
   top: 0;
   left: 0;
-  h3 {
+  h1 {
+    font-size: $font-size-h1;
     font-weight: 900;
   }
 }
@@ -422,7 +441,7 @@ h4 {
   font-style: normal;
   font-weight: 200;
   color: white;
-  font-size: 1.5rem;
+  font-size: $font-size-suptext;
   line-height: 150.1%;
   text-align: left;
   width: 40%;
@@ -524,26 +543,28 @@ h4 {
   display: flex;
   flex-direction: column;
   margin-bottom: 50px;
-  h2 {
-    color: #0b2349;
-    padding: 25px 0;
-    display: flex;
-    justify-content: center;
-  }
   nav {
+    font-size: $font-size-nav;
     display: flex;
     justify-content: space-between;
     margin: 0 20vw;
-
     top: 25px;
     z-index: 100;
   }
   a {
     color: white;
     font-size: 1.5rem;
-    font-weight: 200;
+    font-weight: 600;
     text-decoration: none;
   }
+}
+.what-modules__h1 {
+  font-size: $font-size-h1;
+  color: #0b2349;
+  padding: 25px 0;
+  display: flex;
+  justify-content: center;
+  font-weight: normal;
 }
 .what-modules__header-background {
   background: linear-gradient(
@@ -579,16 +600,19 @@ h4 {
 
 .what-modules__module-conteiner {
   padding: 100px 5vw 0 5vw;
-  h3 {
-    color: #0b2349;
-    font-weight: 900;
-  }
+  display: block;
   article {
+    font-size: $font-size-suptext;
     margin: 25px 0;
   }
+  span {
+    font-weight: 500;
+  }
 }
-.what-modules__module-name {
-  font-weight: 500;
+.what-modules__module-conteiner__h1 {
+  font-size: $font-size-h1;
+  color: #0b2349;
+  font-weight: 900;
 }
 .what-modules__description {
   display: flex;
@@ -612,7 +636,10 @@ h4 {
     margin: 0;
   }
 }
-
+.description-table_h1 {
+  margin: 0;
+  font-size: $font-size-h1;
+}
 /*test*/
 
 .wrapper {
@@ -631,7 +658,7 @@ h4 {
 /*test end*/
 
 table {
-  font-size: 14px;
+  font-size: $font-size-table;
   width: 100%;
   border-collapse: collapse;
   margin: 15px 0 15px 0;
@@ -652,14 +679,10 @@ th:first-child {
   width: 20%;
 }
 tr:last-child td:first-child {
-  font-size: 1.2rem;
+  font-size: $font-size-table-select;
 }
 tr:last-child {
   border-top: 3px solid white;
-}
-#pr200_colum {
-  font-size: 2.25rem;
-  background-color: black;
 }
 .submit-buttons {
   display: flex;
@@ -668,12 +691,12 @@ tr:last-child {
 }
 .table-title {
   font-weight: 300;
-  font-size: 1.8rem;
+  font-size: $font-size-table-title;
   text-align: center !important;
 }
 .table-header {
   font-weight: 800;
-  font-size: 1.8rem;
+  font-size: $font-size-table-title;
 }
 /* table end */
 /*choose combination */
@@ -682,6 +705,9 @@ tr:last-child {
   div {
     height: 500px;
   }
+}
+.choose-comb_h1 {
+  font-size: $font-size-h1;
 }
 /*choose combination end*/
 /*buttons */
