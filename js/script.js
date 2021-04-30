@@ -2,7 +2,7 @@
 /* add class depending on scroll*/
 function fc(){
     let nav = document.querySelector('.navbar');
-      if (window.pageYOffset > 1200) {
+      if (window.pageYOffset > 950) {
          nav.classList.add('--active');
       } else {
         nav.classList.remove('--active');
