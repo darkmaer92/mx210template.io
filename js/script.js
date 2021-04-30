@@ -32,14 +32,14 @@ function fc(){
         } 
 
         let migrateIN = document.querySelector('.migrate');
-        if (window.pageYOffset > 3500) {
+        if (window.pageYOffset > 3300) {
             migrateIN.classList.add('--inactiv_migrate');
         } else {
             migrateIN.classList.remove('--inactiv_migrate');
         } 
 /*3 */ 
         let integrate = document.querySelector('.integrate');
-        if (window.pageYOffset > 3500) {
+        if (window.pageYOffset > 3300) {
             integrate.classList.add('--active_integrate',);
         } 
         else {
@@ -47,7 +47,7 @@ function fc(){
         } 
 
         let integrateIN = document.querySelector('.integrate');
-        if (window.pageYOffset > 4000) {
+        if (window.pageYOffset > 3900) {
             integrateIN.classList.add('--inactiv_migrate');
         } else {
             integrateIN.classList.remove('--inactiv_migrate');
