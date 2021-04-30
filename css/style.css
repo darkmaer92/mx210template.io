@@ -40,9 +40,9 @@ h6 {
 }
 
 .header__background {
-  shape-outside: polygon(0 0, 100vw 0, 100vw 110px, 0 60px);
-  -webkit-clip-path: polygon(0 0, 100vw 0, 100vw 110px, 0 60px);
-          clip-path: polygon(0 0, 100vw 0, 100vw 110px, 0 60px);
+  shape-outside: polygon(0 0, 100vw 0, 100vw 75px, 0 45px);
+  -webkit-clip-path: polygon(0 0, 100vw 0, 100vw 75px, 0 45px);
+          clip-path: polygon(0 0, 100vw 0, 100vw 75px, 0 45px);
   background: linear-gradient(-120.14deg, #ffffff 28.98%, #052951 162.17%);
   height: 110px;
   width: 100%;
@@ -67,7 +67,7 @@ h6 {
 .header__content a {
   color: #052951;
   margin: 0;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   display: block;
   font-weight: 500;
 }
@@ -87,7 +87,7 @@ h6 {
 }
 
 .home-page__conteiner {
-  margin: 50px 10vw 0 10vw;
+  margin: 20px 10vw 0 10vw;
 }
 
 .home-page__content {
@@ -118,6 +118,7 @@ h6 {
 .home-page__device-img__device {
   width: 700px;
   margin-left: -15vw;
+  margin-bottom: -10px;
 }
 
 .home-page__device-img__img-mqtt {
@@ -144,25 +145,25 @@ h6 {
 }
 
 .home-page__conteiner__elem-h1 {
-  font-size: 2.5rem;
+  font-size: 2.25rem;
   font-style: normal;
   font-weight: 900;
 }
 
 .home-page__conteiner__elem-h1-sub {
-  font-size: 2.5rem;
+  font-size: 2.25rem;
   font-style: normal;
   font-weight: 500;
 }
 
 .home-page__conteiner__elem-h3 {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: normal;
   font-style: normal;
 }
 
 .home-page__content__elem-h1-sub {
-  font-size: 2.5rem;
+  font-size: 2.25rem;
   font-style: normal;
   font-weight: 400;
 }
@@ -171,7 +172,7 @@ h6 {
   margin: 0 10vw;
 }
 .home-page__subparagraph h2 {
-  font-size: 2.5rem;
+  font-size: 2.25rem;
   font-size: normal;
   font-weight: 900;
   background: linear-gradient(180deg, #ffffff 33%, rgba(236, 236, 236, 0.42));
@@ -219,7 +220,7 @@ h6 {
 
 .remout-io__h1,
 .app_extend_h1 {
-  font-size: 2.5rem;
+  font-size: 2.25rem;
   color: #0b2349;
   padding: 25px 0;
   display: flex;
@@ -321,7 +322,7 @@ h6 {
 }
 .app_extend_row-mx article {
   width: 70%;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   margin: 0 25px 50px 0;
 }
 
@@ -330,7 +331,7 @@ h6 {
 }
 .app_extend_configur-io article {
   color: #052951;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   width: 40%;
   padding: 0 10px 0 20px;
 }
@@ -356,7 +357,7 @@ h6 {
   font-style: normal;
   font-weight: 300;
   color: white;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   line-height: 150.1%;
   text-align: left;
 }
@@ -370,7 +371,7 @@ h6 {
 }
 
 .app_migrate__h1 {
-  font-size: 2.5rem;
+  font-size: 2.25rem;
   margin: 10px 0 40px 0;
   text-align: left;
   font-weight: 900;
@@ -385,13 +386,13 @@ h6 {
   position: relative;
 }
 .app_integrate h1 {
-  font-size: 2.5rem;
+  font-size: 2.25rem;
   margin: 15px 5vw;
   color: #0b2349;
   font-weight: 900;
 }
 .app_integrate article {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   margin: 50px 5vw;
   width: 55vw;
   line-height: 120%;
@@ -432,7 +433,7 @@ h6 {
   left: 0;
 }
 .app_connect h1 {
-  font-size: 2.5rem;
+  font-size: 2.25rem;
   font-weight: 900;
 }
 
@@ -440,7 +441,7 @@ h6 {
   font-style: normal;
   font-weight: 200;
   color: white;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   line-height: 150.1%;
   text-align: left;
   width: 40%;
@@ -564,7 +565,7 @@ h6 {
 }
 
 .what-modules__h1 {
-  font-size: 2.5rem;
+  font-size: 2.25rem;
   color: #0b2349;
   padding: 25px 0;
   display: flex;
@@ -600,7 +601,7 @@ h6 {
   display: block;
 }
 .what-modules__module-conteiner article {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   margin: 25px 0;
 }
 .what-modules__module-conteiner span {
@@ -608,7 +609,7 @@ h6 {
 }
 
 .what-modules__module-conteiner__h1 {
-  font-size: 2.5rem;
+  font-size: 2.25rem;
   color: #0b2349;
   font-weight: 900;
 }
@@ -638,7 +639,7 @@ h6 {
 
 .description-table_h1 {
   margin: 0;
-  font-size: 2.5rem;
+  font-size: 2.25rem;
 }
 
 /*test*/
@@ -717,7 +718,7 @@ tr:last-child {
 }
 
 .choose-comb_h1 {
-  font-size: 2.5rem;
+  font-size: 2.25rem;
 }
 
 /*choose combination end*/
@@ -774,6 +775,12 @@ tr:last-child {
 }
 
 @media (min-width: 1700px) {
+  .header__background {
+    shape-outside: polygon(0 0, 100vw 0, 100vw 110px, 0 60px);
+    -webkit-clip-path: polygon(0 0, 100vw 0, 100vw 110px, 0 60px);
+            clip-path: polygon(0 0, 100vw 0, 100vw 110px, 0 60px);
+  }
+
   .header__logo {
     margin-right: 20vw;
   }

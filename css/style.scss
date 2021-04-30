@@ -4,13 +4,13 @@ $header-background: linear-gradient(
   #052951 162.17%
 );
 $page-backgound: linear-gradient(180deg, #040d21 0%, #052951 100%);
-$font-size-header: 1.2rem;
-$font-size-h1: 2.5rem;
-$font-size-h2: 2.25rem;
-$font-size-h3: 1.4rem;
+$font-size-header: 1.1rem;
+$font-size-h1: 2.25rem;
+$font-size-h2: 2.0rem;
+$font-size-h3: 1.2rem;
 $font-size-nav: 1.5rem;
-$font-size-suptext: 1.5rem;
-$font-size-subtext: 1.25rem;
+$font-size-suptext: 1.25rem;
+$font-size-subtext: 1.5rem;
 $font-size-article: 1rem;
 $font-size-note: 0.7rem;
 $font-size-table: 0.875;
@@ -56,8 +56,8 @@ h6 {
   }
 }
 .header__background {
-  shape-outside: polygon(0 0, 100vw 0, 100vw 110px, 0 60px);
-  clip-path: polygon(0 0, 100vw 0, 100vw 110px, 0 60px);
+  shape-outside: polygon(0 0, 100vw 0, 100vw 75px, 0 45px);
+  clip-path: polygon(0 0, 100vw 0, 100vw 75px, 0 45px);
   background: $header-background;
   height: 110px;
   width: 100%;
@@ -98,7 +98,7 @@ h6 {
   color: white;
 }
 .home-page__conteiner {
-  margin: 50px 10vw 0 10vw;
+  margin: 20px 10vw 0 10vw;
 }
 .home-page__content {
   display: flex;
@@ -126,6 +126,7 @@ h6 {
 .home-page__device-img__device {
   width: 700px;
   margin-left: -15vw;
+  margin-bottom: -10px;
 }
 .home-page__device-img__img-mqtt {
   position: absolute;
@@ -757,6 +758,22 @@ tr:last-child {
 }
 
 @media (min-width: 1700px) {
+  $font-size-header: 1.2rem;
+$font-size-h1: 2.5rem;
+$font-size-h2: 2.25rem;
+$font-size-h3: 1.4rem;
+$font-size-nav: 1.5rem;
+$font-size-suptext: 1.5rem;
+$font-size-subtext: 1.25rem;
+$font-size-article: 1rem;
+$font-size-note: 0.7rem;
+$font-size-table: 0.875;
+$font-size-table-title: 1.8rem;
+$font-size-table-select: 1.2rem;
+  .header__background {
+    shape-outside: polygon(0 0, 100vw 0, 100vw 110px, 0 60px);
+    clip-path: polygon(0 0, 100vw 0, 100vw 110px, 0 60px);
+  }
   .header__logo {
     margin-right: 20vw;
   }
