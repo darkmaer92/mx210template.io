@@ -23,13 +23,16 @@
             </nav>
         </header>
         <section class="home-page__conteiner">
-            <h1>Industrial Remote I/O Modules</h1>
-            <h2>Mx210 Series with Ethernet</h2>
+            <h1 class="home-page__conteiner__elem-h1">Industrial Remote I/O Modules</h1>
+            <h1 class="home-page__conteiner__elem-h1-sub">Mx210 Series with Ethernet</h1>
             <div class="home-page__content">
-                <div class="home-page__device-img"><img src="images/MV210-101_402.png" alt="mx210_101_402"></div>
+                <div class="home-page__device-img">
+                  <img class="home-page__device-img__device" src="images/MV210-101_402.png" alt="mx210_101_402">
+                  <img class="home-page__device-img__img-mqtt" src="images/modbus-tcp_mqtt_snmp.png" alt="">
+                </div>
                 <section>
-                    <h3>Modbus TCP, MQTT, IIoT...</h3>
-                    <h4>Has the time come?</h4>
+                    <h3 class="home-page__conteiner__elem-h3">Modbus TCP, MQTT, IIoT...</h3>
+                    <h1 class="home-page__content__elem-h1-sub">Has the time come?</h1>
                     <article class="home-page__sup-art">Industrial Ethernet has kept surpassing traditional fieldbus architectures year on year since 2018<sup>1</sup>, and thus, becomes the leading connection methodology in plants around the world. Since the Industrial Ethernet is now an up-and-coming star on the industrial automation stage, we introduce remote Ethernet I/O Modules based on Modbus TCP.
                     </article>
                     <article class="home-page__sub-art">It’s time to stop lagging behind and become a part of the trend, together with akYtec and Mx210 Series I/O Modules.
@@ -40,9 +43,8 @@
             </div>
         </section>
         <section class="home-page__subparagraph">
-            <div class="home-page__icon"><img src="images/Modbus.svg" alt="modbus_icon"></div>
             <article>
-                <h3>Why Modbus TCP?</h3>
+                <h2>Why Modbus TCP?</h2>
                 <p>Modbus TCP is an open, globally accepted, simple, vendor-neutral communication protocol. Being on the top 4 of industrial ethernet protocols, Modbus TCP is a ‘de-facto’ automation standard. If your system is not deterministic and doesn’t require high-level real-time performance, it’s not reasonable to employ high-end ethernet protocols, such as EtherCat, Profinet, Ethernet/IP. Why would you pay more if Modbus TCP is enough for your task?</p>
             </article>
         </section>
@@ -51,7 +53,7 @@
 <section class="remout-io">
     <div class="remout-io__header-background"></div>
 
-    <h2 id="extend">Remote I/O modules Mx210 come in useful if you need:</h2>
+    <h1 class="remout-io__h1" id="extend">Remote I/O modules Mx210 come in useful if you need:</h1>
     <nav>
         <div class="remout-io__header-sticky navbar"></div>
         <a class="remout-io__link-extend extend" data-i18n="[html]moreInfoH" href="#extend">Extend</a>
@@ -61,20 +63,22 @@
     </nav>
     <section class="app_extend">  
         <div class="app_extend_form-backround"></div>  
-        <h3 id="extend">Flexibly extend existing I/Os<br>of a PLC-based system</h3>
+        <h1 class="app_extend_h1" id="extend">Flexibly extend existing I/Os<br>of a PLC-based system</h1>
         <div class="app_extend_row-mx">
             <img src="images/Mx210.png" alt="mx210">
             <article>The Ethernet I/O-Modules of the MX210 series are available in different variants depending on the combination of the number, type, and properties of their inputs and outputs.
             </article>
         </div>
         <div class="app_extend_configur-io">
-            <iframe width="500" height="500" src="https://www.youtube.com/embed/z0mRd3h_kDA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/z0mRd3h_kDA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
             <article>The analog inputs and outputs of the respective device variant are individually configurable to several signal types, which adds to  the flexibility of your system even more. You can create your own I/O-type combinations within a single device to match the requirements of the task.</article>
         </div>
     </section>
     <section class="app_migrate">
-        <h3 id="migrate"><span>Migrate from Fieldbus to Industrial Ethernet</span><br>
-            <span>or create a PLC-based system on Industrial Ethernet</span></h3>
+        <h1 class="app_migrate__h1" id="migrate">Migrate from Fieldbus to Industrial Ethernet<br>
+            <span>or create a PLC-based system on Industrial Ethernet</span></h1>
             <article>
                 As compared to fieldbus-based networks, industrial Ethernet communications are much faster, have greater bandwidth, easier upward integration, unlimited node counts, and more topology options. Also, Ethernet networks are far easier to deploy and use than fieldbus technologies.
             </article>
@@ -84,7 +88,7 @@
     </section>
     <section class="app_integrate">
         <div id="integrate" class="app_integrate__background"></div> 
-        <h3>Smoothly integrate <br>into IIoT infrastructure</h3>
+        <h1>Smoothly integrate <br>into IIoT infrastructure</h1>
             <article class="app_integrate__sub-article">
                 Thanks to the MQTT communication protocol, an Mx210 module can connect to any MQTT brokers providing integration between factory installations and IT-systems / IIoT applications, and thus a range of possibilities, such as remote monitoring and control via any browser-enabled devices, PCs, smartphones, tablets, etc.
             </article>
@@ -96,7 +100,7 @@
 
     </section>
     <section class="app_connect">
-        <h3 id="read">Connect field I/Os without PLC</h3>
+        <h1 id="read">Connect field I/Os without PLC</h1>
             <article class="app_connect__article">Any Mx210 remote I/O module can operate as a standalone device on a factory floor or in a process plant without any need of a PLC, connecting field I/Os directly to a SCADA system, cloud infrastructure, or an MQTT broker.</article>
             <div class="app_connect__img">
                 <img src="images/Group 5png.png" alt="">
@@ -168,8 +172,8 @@
 </section>
 <section class="what-modules">
     <div class="what-modules__header-background"></div>
-    <h2 >What modules we offer:
-    </h2>
+    <h1 class="what-modules__h1">What modules we offer:
+    </h1>
     <nav>
         <a class="" data-i18n="[html]moreInfoH" href="#">Inputs</a>
         <a class="" data-i18n="[html]quoteH" href="#">Inputs & Outputs</a>
@@ -179,7 +183,7 @@
         <div class="what-modules__form-backround"></div>  
         
         <section class="what-modules__module-conteiner">
-            <h3><span>Analog input modules</span> <br><span class="what-modules__module-name">(MV210-101)</span></h3>
+            <h1 class="what-modules__module-conteiner__h1">Analog input modules<br><span class="what-modules__module-name">(MV210-101)</span></h1>
             <div class="what-modules__description">
                 <article>8 individually configurable analog inputs to connect a wide range of sensors, such as RTDs (Pt100/1000, Ni100/1000), TCs, and signals 0-1 V, 0(4)-20 mA.
                 </article>
@@ -253,7 +257,7 @@
       </ul>
 </section>
 <section class="description-table">
-    <h3>Technical data</h3>
+    <h1 class="description-table_h1">Technical data</h1>
     <!--  MV210  -->
     <div class="wrapper mv210">
         <table class="table">
@@ -285,12 +289,12 @@
                 <td class="sticky-col first-col" data-i18n="td_1">
                   Input signal
                 </td>
-                <td>RTD, TC<br>4-20mA, <a href="#">etc</a></td>
+                <td>RTD, TC,<br>4-20mA, <a href="#">etc</a></td>
                 <td>Switch contact, NPN/PNP</td>
                 <td>Switch contact, NPN</td>
                 <td>Switch contact, NPN/PNP</td>
                 <td>Switch contact, NPN</td>
-                <td>230 V AC signals<br>Dry contact<br>NPN</td>
+                <td>230 VAC signals,<br>dry contact,<br>NPN</td>
               </tr>
               <tr>
                 <td class="sticky-col first-col" data-i18n="td_1">
@@ -308,9 +312,9 @@
                     Pulse length, min.
                 </td>
                 <td>-</td>
-                <td>5 µs (1-8 DI)<br>1 ms (9-20 DI)</td>
+                <td>5 µs (1-8 DI),<br>1 ms (9-20 DI)</td>
                 <td>1 ms</td>
-                <td>5 µs (1-8 DI)<br>1 ms (9-32 DI)</td>
+                <td>5 µs (1-8 DI),<br>1 ms (9-32 DI)</td>
                 <td>1 ms</td>
                 <td>1 ms</td>
             </tr>
@@ -319,12 +323,10 @@
                     Integrated voltage source
                 </td>
                 <td>-</td>
-                <td>24±3 V</td>
-                <td>no external power supply required<br>
-                    24±3 V (only for NPN inputs)</td>
-                <td>24±3 V</td>
-                <td colspan="2">no external power supply required<br>
-                    24±3 V (only for NPN inputs)</td>
+                <td>24±3 VDC</td>
+                <td>24±3 VDC only for NPN inputs</td>
+                <td>24±3 VDC</td>
+                <td colspan="2">24±3 VDC only for NPN inputs</td>
  
             </tr>
               <tr>
@@ -458,8 +460,8 @@
                 <td class="sticky-col first-col" data-i18n="td_1">
                     Input signal
                 </td>
-                <td>Switch contact<br>NPN</td>
-                <td>Switch contact<br>NPN/PNP</td>
+                <td>Switch contact,<br>NPN</td>
+                <td>Switch contact,<br>NPN/PNP</td>
               </tr>
               <tr>
                 <td class="sticky-col first-col" data-i18n="td_1">
@@ -473,14 +475,14 @@
                     Pulse length, min.
                 </td>
                 <td>1 ms</td>
-                <td>5 µs (1-8 DI)<br>1 ms (9-12 DI)</td>
+                <td>5 µs (1-8 DI),<br>1 ms (9-12 DI)</td>
               </tr>
               <tr>
                 <td class="sticky-col first-col" data-i18n="td_1">
                     Integrated voltage source
                 </td>
-                <td>24±3 V (only for NPN inputs)</td>
-                <td>24±3 V</td>
+                <td>24±3 VDC only for NPN inputs</td>
+                <td>24±3 VDC</td>
               </tr>
               <tr>
                 <td class="sticky-col first-col" data-i18n="td_1">
@@ -493,15 +495,15 @@
                 <td class="sticky-col first-col" data-i18n="td_1">
                     Type
                 </td>
-                <td>Relay output (NO)</td>
-                <td>Relay output (NO)</td>
+                <td>Relay (NO)</td>
+                <td>Relay (NO)</td>
               </tr>
               <tr>
                 <td class="sticky-col first-col" data-i18n="td_1">
                     Permissible load
                 </td>
-                <td>5 A, 250 V AC cosϕ > 0.4<br>3 A, 30 V DC</td>
-                <td>5 A, 250 V AC cosϕ > 0.4<br>3 A, 30 V DC</td>
+                <td>5 A, 250 VAC cosϕ > 0.4,<br>3 A, 30 VDC</td>
+                <td>5 A, 250 VAC cosϕ > 0.4,<br>3 A, 30 VDC</td>
               </tr>
               <tr>
                 <td class="sticky-col first-col">PDF</td>
@@ -574,19 +576,19 @@
                 <td class="sticky-col first-col" data-i18n="td_1">
                     Output signal
                 </td>
-                <td>Relay output (NO)</td>
-                <td>Relay output (NO)</td>
-                <td colspan="2">Transistor output</td>
+                <td>Relay (NO)</td>
+                <td>Relay (NO)</td>
+                <td colspan="2">Transistor</td>
                 <td>0(4)-20 mA, 0-1(10)V</td>
               </tr>
               <tr>
                 <td class="sticky-col first-col" data-i18n="td_1">
                     Permissible load
                 </td>
-                <td>5 A, 250 V AC cosϕ > 0.4<br>3 A, 30 V DC</td>
-                <td>5 A, 250 V AC cosϕ > 0.4<br>3 A, 30 V DC</td>
-                <td>100 mA, 10...36 V DC</td>
-                <td>800 mA 10...36 V DC</td>
+                <td>5 A, 250 VAC cosϕ > 0.4,<br>3 A, 30 VDC</td>
+                <td>5 A, 250 VAC cosϕ > 0.4,<br>3 A, 30 VDC</td>
+                <td>100 mA, 10...36 VDC</td>
+                <td>800 mA 10...36 VDC</td>
                 <td>-</td>
               </tr>
             <tr>
@@ -696,7 +698,7 @@
       </div>
 </section>
 <section class="choose-comb">
-    <h3>Select your own device(s):</h3>
+    <h1 class="choose-comb_h1">Select your own device(s):</h1>
     <div >404 Not found</div>
 </section>
 <footer class="footer_conteiner footer">
@@ -804,7 +806,7 @@
 
     <div class="footer_bottom">
       <div class="footer_left">
-        <address>&copy; 2020 akYtec . All Rights Reserved.</address>
+        <address>&copy; 2021 akYtec . All Rights Reserved.</address>
       </div>
     </div>
   </footer>
