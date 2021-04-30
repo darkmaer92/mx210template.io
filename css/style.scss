@@ -169,7 +169,6 @@ h6 {
 }
 .home-page__subparagraph {
   margin: 0 10vw;
-  display: flex;
   h2 {
     font-size: $font-size-h1;
     font-size: normal;
@@ -367,6 +366,9 @@ h6 {
 .app_migrate_scheme {
   text-align: center;
   margin: 60px;
+  img {
+    width: 100%;
+  }
 }
 .app_migrate__h1 {
   font-size: $font-size-h1;
@@ -427,8 +429,8 @@ h6 {
 /*app_integrate end*/
 /* app_connect */
 .app_connect {
-  margin: 60px 5vw;
-  height: 50vw;
+  margin: 60px 5vw 350px 5vw;
+  height: 100%;
   position: relative;
   top: 0;
   left: 0;
@@ -759,7 +761,7 @@ tr:last-child {
     margin-right: 20vw;
   }
   .header__nav-conteiner {
-    width: 20%;
+    width: 15%;
     margin-left: 20vw;
   }
   .home-page__conteiner {
@@ -767,5 +769,24 @@ tr:last-child {
   }
   .home-page__subparagraph {
     margin: 0 20vw;
+  }
+  .home-page__device-img__img-mqtt {
+    left: 5%;
+  }
+  .remout-io {
+    margin: 0 10vw;
+  }
+  .app_extend_configur-io {
+    iframe {
+      width: 560px * 1.5;
+      height: 315px * 1.5;
+
+    }
+  }
+  .features__conteiner {
+    width: 80vw;
+  }
+  .what-modules {
+    margin: 0 10vw;
   }
 }
