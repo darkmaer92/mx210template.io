@@ -387,13 +387,13 @@ h6 {
   position: relative;
   h1 {
     font-size: $font-size-h1;
-    margin: 15px 5vw;
+    margin: 100px 5vw 20px 5vw;
     color: #0b2349;
     font-weight: 900;
   }
   article {
     font-size: $font-size-suptext;
-    margin: 50px 5vw;
+    margin: 36px 5vw;
     width: 65vw;
     line-height: 120%;
     color: #0b2349;
@@ -602,7 +602,6 @@ h6 {
   top: 0;
   left: 0;
   z-index: -2;
-
 }
 
 .what-modules__module-conteiner {

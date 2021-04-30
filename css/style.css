@@ -388,13 +388,13 @@ h6 {
 }
 .app_integrate h1 {
   font-size: 2.5rem;
-  margin: 15px 5vw;
+  margin: 100px 5vw 20px 5vw;
   color: #0b2349;
   font-weight: 900;
 }
 .app_integrate article {
   font-size: 1.5rem;
-  margin: 50px 5vw;
+  margin: 36px 5vw;
   width: 65vw;
   line-height: 120%;
   color: #0b2349;
