@@ -212,12 +212,12 @@ h6 {
     top: 25px;
     z-index: 100;
   }
-  a {
-    color: #0b2349;
-    font-size: $font-size-nav;
-    font-weight: 600;
-    text-decoration: none;
-  }
+}
+.nav-list__item-link {
+  color: #0b2349;
+  font-size: $font-size-nav;
+  font-weight: 600;
+  text-decoration: none;
 }
 .remout-io__h1,
 .app_extend_h1 {
@@ -267,6 +267,9 @@ h6 {
   transform: translate(0px, 0px);
 }
 /*remout-io_header end*/
+.nav-list__item-link--active {
+  color: white;
+}
 
 .remout-io__link-extend.--active_extend {
   color: white;

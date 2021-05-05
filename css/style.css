@@ -212,7 +212,8 @@ h6 {
   top: 25px;
   z-index: 100;
 }
-.remout-io a {
+
+.nav-list__item-link {
   color: #0b2349;
   font-size: 1.5rem;
   font-weight: 600;
@@ -263,6 +264,10 @@ h6 {
 }
 
 /*remout-io_header end*/
+.nav-list__item-link--active {
+  color: white;
+}
+
 .remout-io__link-extend.--active_extend {
   color: white;
 }
