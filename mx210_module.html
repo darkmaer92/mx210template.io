@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css"></link>
+    <link rel="stylesheet" href="css/splide.min.css" />
 </head>
 <body>
     <section class="home-page">
@@ -63,7 +64,7 @@
     </nav>
     <section class="app_extend section" id="section-1">  
         <div class="app_extend_form-backround"></div>  
-        <h1 class="app_extend_h1" id="extend">Flexibly extend existing I/Os<br>of a PLC-based system</h1>
+        <h1 class="app_extend_h1">Flexibly extend existing I/Os<br>of a PLC-based system</h1>
         <div class="app_extend_row-mx">
             <img src="images/Mx210.png" alt="mx210">
             <article>The Ethernet I/O-Modules of the MX210 series are available in different variants depending on the combination of the number, type, and properties of their inputs and outputs.
@@ -77,7 +78,7 @@
         </div>
     </section>
     <section class="app_migrate section" id="section-2">
-        <h1 class="app_migrate__h1" id="migrate">Migrate from Fieldbus to Industrial Ethernet<br>
+        <h1 class="app_migrate__h1">Migrate from Fieldbus to Industrial Ethernet<br>
             <span>or create a PLC-based system on Industrial Ethernet</span></h1>
             <article>
                 As compared to fieldbus-based networks, industrial Ethernet communications are much faster, have greater bandwidth, easier upward integration, unlimited node counts, and more topology options. Also, Ethernet networks are far easier to deploy and use than fieldbus technologies.
@@ -87,7 +88,7 @@
             </div>
     </section>
     <section class="app_integrate section" id="section-3">
-        <div id="integrate" class="app_integrate__background"></div> 
+        <div class="app_integrate__background"></div> 
         <h1>Smoothly integrate <br>into IIoT infrastructure</h1>
             <article class="app_integrate__sub-article">
                 Thanks to the MQTT communication protocol, an Mx210 module can connect to any MQTT brokers providing integration between factory installations and IT-systems / IIoT applications, and thus a range of possibilities, such as remote monitoring and control via any browser-enabled devices, PCs, smartphones, tablets, etc.
@@ -100,7 +101,7 @@
 
     </section>
     <section class="app_connect section" id="section-4">
-        <h1 id="read">Connect field I/Os without PLC</h1>
+        <h1>Connect field I/Os without PLC</h1>
             <article class="app_connect__article">Any Mx210 remote I/O module can operate as a standalone device on a factory floor or in a process plant without any need of a PLC, connecting field I/Os directly to a SCADA system, cloud infrastructure, or an MQTT broker.</article>
             <div class="app_connect__img">
                 <img src="images/Group 5png.png" alt="">
@@ -170,6 +171,11 @@
           </li>
       </ul>
 </section>
+
+
+
+
+
 <section class="what-modules">
     <div class="what-modules__header-background"></div>
     <h1 class="what-modules__h1">What modules we offer:
@@ -183,17 +189,69 @@
         <div class="what-modules__form-backround"></div>  
         
         <section class="what-modules__module-conteiner">
-            <h1 class="what-modules__module-conteiner__h1">Analog input modules<br><span class="what-modules__module-name">(MV210-101)</span></h1>
-            <div class="what-modules__description">
-                <article>8 individually configurable analog inputs to connect a wide range of sensors, such as RTDs (Pt100/1000, Ni100/1000), TCs, and signals 0-1 V, 0(4)-20 mA.
-                </article>
-                <img src="images/MV210-101.png" alt="mx210">
+          <div class="splide">
+            <div class="splide__arrows">
+              <button class="splide__arrow splide__arrow--prev">
+                <div class="arrow_prew"></div>
+              </button>
+              <button class="splide__arrow splide__arrow--next">
+                <div class="arrow_next"></div>
+              </button>
             </div>
+            <div class="splide__track">
+              <ul class="splide__list">
+                <li class="splide__slide">
+                  <h1 class="what-modules__module-conteiner__h1">Analog input modules<br><span class="what-modules__module-name">(MV210-101)</span></h1>
+                  <div class="what-modules__description">
+                      <article>8 individually configurable analog inputs to connect a wide range of sensors, such as RTDs (Pt100/1000, Ni100/1000), TCs, and signals 0-1 V, 0(4)-20 mA.
+                      </article>
+                      <img src="images/MV210-101.png" alt="mx210">
+                  </div>  
+                 </li>
+                <li class="splide__slide">
+                  <h1 class="what-modules__module-conteiner__h1">Digital input modules<br><span class="what-modules__module-name">(MV210-202/204/212/214)</span></h1>
+                  <div class="what-modules__description">
+                      <article>Up to 32 inputs to connect switch contacts as well as NPN or PNP transistors. High-speed counting with 100-KHz inputs to connect encoders or pulse counters.
+                      </article>
+                      <img src="images/MV210-101.png" alt="mx210">
+                  </div> 
+
+
+                </li>
+                <li class="splide__slide">
+                  <h1 class="what-modules__module-conteiner__h1">Digital input module<br><span class="what-modules__module-name">(MV210-221)</span></h1>
+                  <div class="what-modules__description">
+                      <article>
+                        <ul class="splide__slide__list">
+                          <li>- 6 input to connect switch contacts as well as NPN transistors (support for 400-Hz-counting) </li>
+                          <li>- 9 digital inputs for connecting 230 V AC signals for:</li>
+                          <ul class="splide__slide__sup-list">
+                            <li>determination of the presence or absence of voltage in the network</li>
+                            <li>phase break diagnostics in a three-phase network</li>
+                            <li>phase rotation control</li>
+                            <li>voltage switching counter</li>
+                            <li>other needs</li>
+                          </ul>
+                        </ul>
+                      </article>
+                      <img src="images/MV210-101.png" alt="mx210">
+                  </div> 
+                  </li>
+              </ul>
+            </div>
+          </div>
+
+
+
+   
         </section>
 
 
     </section>
 </section>
+
+
+
 <section class="features">
 
     <ul class="features__conteiner features_second-part">
@@ -810,7 +868,21 @@
       </div>
     </div>
   </footer>
-
+  <script src="js/splide.min.js"></script>
+  <script>
+    new Splide(".splide").mount();
+    new Splide( '#splide', {
+      height: '12rem',
+    } ).mount();
+    new Splide( '#nested-splide', {
+      type   : 'loop',
+      width  : '85%',
+      height : '8rem',
+      perPage: 3,
+      drag   : false,
+    } ).mount();
+  </script>
+    <script src="js/lang-mx.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
