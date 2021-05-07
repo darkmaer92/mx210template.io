@@ -17,16 +17,16 @@
             <div class="header__background"></div>
             <nav class="header__content">
                 <div class="header__nav-conteiner">
-                   <a data-i18n="[html]quoteH" href="#">Quote</a>
-                   <a data-i18n="[html]moreInfoH" href="#">More info</a>
+                   <a data-i18n="[html]quote" href="#">Quote</a>
+                   <a data-i18n="[html]more-info" href="#">More info</a>
                 </div>
                 <div class="header__logo"><a href="#" ><img src="images/Logo_akYtec.svg" alt="akytec_logo"></a></div>
             </nav>
         </header>
         
         <section class="home-page__conteiner">
-            <h1 class="home-page__conteiner__elem-h1">Industrial Remote I/O Modules</h1>
-            <h1 class="home-page__conteiner__elem-h1-sub">Mx210 Series with Ethernet</h1>
+            <h1 class="home-page__conteiner__elem-h1" data-i18n="[html]ind-rem-io">Industrial Remote I/O Modules</h1>
+            <h1 class="home-page__conteiner__elem-h1-sub" data-i18n="[html]mx210-series">Mx210 Series with Ethernet</h1>
             <div class="home-page__content">
                 <div class="home-page__device-img">
                   <img class="home-page__device-img__device" src="images/MV210-101_402.png" alt="mx210_101_402">
@@ -34,20 +34,20 @@
                 </div>
                 <section>
                     <h3 class="home-page__conteiner__elem-h3">Modbus TCP, MQTT, IIoT...</h3>
-                    <h1 class="home-page__content__elem-h1-sub">Has the time come?</h1>
-                    <article class="home-page__sup-art">Industrial Ethernet has kept surpassing traditional fieldbus architectures year on year since 2018<sup>1</sup>, and thus, becomes the leading connection methodology in plants around the world. Since the Industrial Ethernet is now an up-and-coming star on the industrial automation stage, we introduce remote Ethernet I/O Modules based on Modbus TCP.
+                    <h1 class="home-page__content__elem-h1-sub" data-i18n="[html]has-time">Has the time come?</h1>
+                    <article class="home-page__sup-art" data-i18n="[html]ind-ethernet">Industrial Ethernet has kept surpassing traditional fieldbus architectures year on year since 2018<sup>1</sup>, and thus, becomes the leading connection methodology in plants around the world. Since the Industrial Ethernet is now an up-and-coming star on the industrial automation stage, we introduce remote Ethernet I/O Modules based on Modbus TCP.
                     </article>
-                    <article class="home-page__sub-art">It’s time to stop lagging behind and become a part of the trend, together with akYtec and Mx210 Series I/O Modules.
+                    <article class="home-page__sub-art" data-i18n="[html]its-time-stop">It’s time to stop lagging behind and become a part of the trend, together with akYtec and Mx210 Series I/O Modules.
                     </article>
-                    <p>1 according to <a href="#">HMS Networks</a>, an international company in the field of industrial communications
+                    <p data-i18n="[html]subtext">1 according to <a href="#">HMS Networks</a>, an international company in the field of industrial communications
                     </p>
                 </section>
             </div>
         </section>
         <section class="home-page__subparagraph">
             <article>
-                <h2>Why Modbus TCP?</h2>
-                <p>Modbus TCP is an open, globally accepted, simple, vendor-neutral communication protocol. Being on the top 4 of industrial ethernet protocols, Modbus TCP is a ‘de-facto’ automation standard. If your system is not deterministic and doesn’t require high-level real-time performance, it’s not reasonable to employ high-end ethernet protocols, such as EtherCat, Profinet, Ethernet/IP. Why would you pay more if Modbus TCP is enough for your task?</p>
+                <h2 data-i18n="[html]why-modbus">Why Modbus TCP?</h2>
+                <p data-i18n="[html]modbus-tcp">Modbus TCP is an open, globally accepted, simple, vendor-neutral communication protocol. Being on the top 4 of industrial ethernet protocols, Modbus TCP is a ‘de-facto’ automation standard. If your system is not deterministic and doesn’t require high-level real-time performance, it’s not reasonable to employ high-end ethernet protocols, such as EtherCat, Profinet, Ethernet/IP. Why would you pay more if Modbus TCP is enough for your task?</p>
             </article>
         </section>
     </section>
@@ -905,20 +905,70 @@
       </div>
     </div>
   </footer>
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery.i18n/1.0.7/jquery.i18n.min.js"
+    integrity="sha512-a0tGMh5o0nCoRDiMVaSmiWgB9s/JqfC+PQZHWANTzIhasvm5eH9NkWTmJ4WloaQWLT8fEzRBjvADgFNDf0WusQ=="
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery.i18n/1.0.7/jquery.i18n.messagestore.min.js"
+    integrity="sha512-/hv/2tE0W63ywFkKYwtnbYdBwlS+tjEw/TWvGD31awT1bbEliLB0G0akHicAUJVLPSCE6LVEnfdJy0lPkrauvg=="
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery.i18n/1.0.7/jquery.i18n.fallbacks.min.js"
+    integrity="sha512-pN1NvaFGaA7yZtCG3scw7V3/coyQ5yoPree1XjRU3AH4U09l7yv/UCwz2xenxTJR4CI4vm+VD4d1vE1qpEgntg=="
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery.i18n/1.0.7/jquery.i18n.parser.min.js"
+    integrity="sha512-7SqTAqYSZQLut/vsxY2AFpb+kHhx97D6aBE/mxasqUzdoFqdBunJexJX+I51Uj1j2o9yD9JtNyMZ1PXDMnJMoQ=="
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery.i18n/1.0.7/jquery.i18n.emitter.min.js"
+    integrity="sha512-Yw0lHnAEswccgVMDJm0wNcn6VoLj6g/xAerqevklCx+D1eBBJZDvs6N7vzmlgmpT9SrZ/QsWDjWVOV8d5InotA=="
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery.i18n/1.0.7/jquery.i18n.emitter.bidi.min.js"
+    integrity="sha512-dWOh8gVtmoq3jnJMksc/K9sgWuSkRc61EbqofuiLsUeYjkZeelYM7mRHQ9+B9ggZhXtz6u9IFR98v6QpZfxuRg=="
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery.i18n/1.0.7/jquery.i18n.language.min.js"
+    integrity="sha512-J96wSOfD3IQIzCnzDFXdXJViIbu6FROoFIn92ai/gGjSBAKDCa6zhfN0XZBY/yeybt2OntBm44hIAR78x9HBBQ=="
+    crossorigin="anonymous"
+  ></script>
 
+  <script src="https://cdn.jsdelivr.net/npm/cldrpluralruleparser@1.3.2/src/CLDRPluralRuleParser.min.js"></script>
+
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="https://cdn.datatables.net/1.10.22/css/jquery.dataTables.css"
+  />
+  <script
+    type="text/javascript"
+    charset="utf8"
+    src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"
+  ></script>
+  <script
+    type="text/javascript"
+    charset="utf8"
+    src="https://cdn.datatables.net/fixedcolumns/3.3.2/js/dataTables.fixedColumns.min.js"
+  ></script>
   <script src="js/splide.min.js"></script>
   <script>
     new Splide(".splide").mount();
-    new Splide( '#splide', {
-      height: '12rem',
-    } ).mount();
-    new Splide( '#nested-splide', {
-      type   : 'loop',
-      width  : '85%',
-      height : '8rem',
-      perPage: 3,
-      drag   : false,
-    } ).mount();
+
+    
   </script>
     <script src="js/lang-mx.js"></script>
     <script src="js/script.js"></script>
