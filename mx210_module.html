@@ -23,6 +23,7 @@
                 <div class="header__logo"><a href="#" ><img src="images/Logo_akYtec.svg" alt="akytec_logo"></a></div>
             </nav>
         </header>
+        
         <section class="home-page__conteiner">
             <h1 class="home-page__conteiner__elem-h1">Industrial Remote I/O Modules</h1>
             <h1 class="home-page__conteiner__elem-h1-sub">Mx210 Series with Ethernet</h1>
@@ -178,75 +179,111 @@
 
 <section class="what-modules">
     <div class="what-modules__header-background"></div>
-    <h1 class="what-modules__h1">What modules we offer:
-    </h1>
-    <nav>
-        <a class="" data-i18n="[html]moreInfoH" href="#">Inputs</a>
-        <a class="" data-i18n="[html]quoteH" href="#">Inputs & Outputs</a>
-        <a class="" data-i18n="[html]partnerH" href="#">Outputs</a>
+    <h1 class="what-modules__h1">What modules we offer:</h1>
+
+
+    <nav class="tab">
+      <button class="tablinks" onclick="openCity(event, 'Input')" id="defaultOpen">Input</button>
+      <button class="tablinks" onclick="openCity(event, 'InputOutput')">Input & Output</button>
+      <button class="tablinks" onclick="openCity(event, 'Output')">Output</button>
     </nav>
-    <section class="what-modules__slider">  
-        <div class="what-modules__form-backround"></div>  
-        
-        <section class="what-modules__module-conteiner">
-          <div class="splide">
-            <div class="splide__arrows">
-              <button class="splide__arrow splide__arrow--prev">
-                <div class="arrow_prew"></div>
-              </button>
-              <button class="splide__arrow splide__arrow--next">
-                <div class="arrow_next"></div>
-              </button>
-            </div>
-            <div class="splide__track">
-              <ul class="splide__list">
-                <li class="splide__slide">
-                  <h1 class="what-modules__module-conteiner__h1">Analog input modules<br><span class="what-modules__module-name">(MV210-101)</span></h1>
-                  <div class="what-modules__description">
-                      <article>8 individually configurable analog inputs to connect a wide range of sensors, such as RTDs (Pt100/1000, Ni100/1000), TCs, and signals 0-1 V, 0(4)-20 mA.
-                      </article>
-                      <img src="images/MV210-101.png" alt="mx210">
-                  </div>  
-                 </li>
-                <li class="splide__slide">
-                  <h1 class="what-modules__module-conteiner__h1">Digital input modules<br><span class="what-modules__module-name">(MV210-202/204/212/214)</span></h1>
-                  <div class="what-modules__description">
-                      <article>Up to 32 inputs to connect switch contacts as well as NPN or PNP transistors. High-speed counting with 100-KHz inputs to connect encoders or pulse counters.
-                      </article>
-                      <img src="images/MV210-101.png" alt="mx210">
-                  </div> 
-
-
-                </li>
-                <li class="splide__slide">
-                  <h1 class="what-modules__module-conteiner__h1">Digital input module<br><span class="what-modules__module-name">(MV210-221)</span></h1>
-                  <div class="what-modules__description">
-                      <article>
-                        <ul class="splide__slide__list">
-                          <li>- 6 input to connect switch contacts as well as NPN transistors (support for 400-Hz-counting) </li>
-                          <li>- 9 digital inputs for connecting 230 V AC signals for:</li>
-                          <ul class="splide__slide__sup-list">
-                            <li>determination of the presence or absence of voltage in the network</li>
-                            <li>phase break diagnostics in a three-phase network</li>
-                            <li>phase rotation control</li>
-                            <li>voltage switching counter</li>
-                            <li>other needs</li>
-                          </ul>
-                        </ul>
-                      </article>
-                      <img src="images/MV210-101.png" alt="mx210">
-                  </div> 
-                  </li>
-              </ul>
-            </div>
+    
+    <div id="Input" class="tabcontent">
+      <section class="what-modules__module-conteiner">
+        <div class="splide">
+          <div class="splide__arrows">
+            <button class="splide__arrow splide__arrow--prev">
+              <div class="arrow_prew"></div>
+            </button>
+            <button class="splide__arrow splide__arrow--next">
+              <div class="arrow_next"></div>
+            </button>
           </div>
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide">
+                <h1 class="what-modules__module-conteiner__h1">Analog input modules<br><span class="what-modules__module-name">(MV210-101)</span></h1>
+                <div class="what-modules__description">
+                    <article>8 individually configurable analog inputs to connect a wide range of sensors, such as RTDs (Pt100/1000, Ni100/1000), TCs, and signals 0-1 V, 0(4)-20 mA.
+                    </article>
+                    <div><img src="images/MV210-101.png" alt="mx210"></div>
+                </div>  
+              </li>
+              <li class="splide__slide">
+                <h1 class="what-modules__module-conteiner__h1">Digital input modules<br><span class="what-modules__module-name">(MV210-202/204/212/214)</span></h1>
+                <div class="what-modules__description">
+                    <article>Up to 32 inputs to connect switch contacts as well as NPN or PNP transistors. High-speed counting with 100-KHz inputs to connect encoders or pulse counters.
+                    </article>
+                    <div><img src="images/MV210-101.png" alt="mx210"></div>
+                </div> 
+  
+  
+              </li>
+              <li class="splide__slide">
+                <h1 class="what-modules__module-conteiner__h1">Digital input module<br><span class="what-modules__module-name">(MV210-221)</span></h1>
+                <div class="what-modules__description">
+                    <article>
+                      <ul class="splide__slide__list">
+                        <li>- 6 input to connect switch contacts as well as NPN transistors (support for 400-Hz-counting) </li>
+                        <li>- 9 digital inputs for connecting 230 V AC signals for:</li>
+                        <ul class="splide__slide__sup-list">
+                          <li>determination of the presence or absence of voltage in the network</li>
+                          <li>phase break diagnostics in a three-phase network</li>
+                          <li>phase rotation control</li>
+                          <li>voltage switching counter</li>
+                          <li>other needs</li>
+                        </ul>
+                      </ul>
+                    </article>
+                    <div><img src="images/MV210-101.png" alt="mx210"></div>
+                </div> 
+                </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+    
+    <div id="InputOutput" class="tabcontent">
+      <section class="what-modules__module-conteiner">
+        <h1 class="what-modules__module-conteiner__h1">Digital input/output modules<br><span class="what-modules__module-name">(MK210-311/312)</span></h1>
+                <div class="what-modules__description">
+                    <article>Convenient combination of inputs and outputs: 
+                      <ul>
+                        <li>- 6 or 12 digital inputs implemented to be connected to switch contacts or NPN/PNP sensors. No power required to supply the inputs</li>
+                        <li>- 8 or 4 digital outputs (relay)</li>
+                      </ul>
+                    </article>
+                    <div><img src="images/MV210-101.png" alt="mx210"></div>
+                </div>         
+      </section>
+    </div>
+    <div id="Output" class="tabcontent">
+
+ 
 
 
 
-   
-        </section>
+      <section class="what-modules__module-conteiner">
+        <h1 class="what-modules__module-conteiner__h1">Digital output modules<br><span class="what-modules__module-name">(MU210-401/402/410)</span></h1>
+                <div class="what-modules__description">
+                    <article>8 or 16 digital outputs (relay or transistor outputs). The maximum current load is 5 A at 250 V AC or 3A at 24 V DC. Support for pulse-width modulation (PWM) for PID control, etc.
+                    </article>
+                    <div><img src="images/MV210-101.png" alt="mx210"></div>
+                </div>         
+      </section>
+      <section class="what-modules__module-conteiner last">
+        <h1 class="what-modules__module-conteiner__h1">Analog output module<br><span class="what-modules__module-name">(MU210-501)</span></h1>
+                <div class="what-modules__description">
+                    <article>8 analog individually configurable outputs: 0(4)-20 mA, 0-1(10)V. Support for pulse-width modulation (PWM) for PID control, etc. Configurable output signal update rate.
+                    </article>
+                    <div><img src="images/MV210-101.png" alt="mx210"></div>
+                </div>         
+      </section>
+    </div>
 
-
+    <section class="what-modules__slider">  
+      <div class="what-modules__form-backround"></div>  
     </section>
 </section>
 
@@ -868,6 +905,7 @@
       </div>
     </div>
   </footer>
+
   <script src="js/splide.min.js"></script>
   <script>
     new Splide(".splide").mount();

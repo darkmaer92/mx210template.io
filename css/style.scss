@@ -529,20 +529,7 @@ h6 {
   display: flex;
   flex-direction: column;
   margin-bottom: 50px;
-  nav {
-    font-size: $font-size-nav;
-    display: flex;
-    justify-content: space-between;
-    margin: 0 20vw;
-    top: 25px;
-    z-index: 100;
-  }
-  a {
-    color: white;
-    font-size: 1.5rem;
-    font-weight: 600;
-    text-decoration: none;
-  }
+
 }
 .what-modules__h1 {
   font-size: $font-size-h1;
@@ -594,6 +581,10 @@ h6 {
   span {
     font-weight: 500;
   }
+  
+}
+.what-modules__module-conteiner.last {
+  padding: 0 5vw 0 5vw;
 }
 .what-modules__module-conteiner__h1 {
   font-size: $font-size-h1;
@@ -608,8 +599,8 @@ h6 {
     font-size: $font-size-suptext;
     width: 60%;
   }
-  img {
-    width: 35%;
+  div {
+    width: 40%;
     margin-top: -100px;
   }
 }
@@ -743,6 +734,41 @@ tr:last-child {
 .what-modules__description .splide__slide__sup-list {
   list-style-type: disc;
   margin-left: 50px;
+}
+
+/* Style the tab */
+.tab {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20vw;
+  button {
+    font-size: $font-size-nav;
+    color: white;
+    font-weight: 600;
+    transition: 0.3s;
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+  }
+}
+/* Change background color of buttons on hover */
+.tab button:hover {
+  
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  color: #0b2349;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
 }
 
 /* end slider */
