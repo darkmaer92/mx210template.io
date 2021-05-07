@@ -8,7 +8,7 @@ jQuery(function ($) {
     });
 
     var lang_conf = {};
-    lang_conf[lang] = "/mx210template.io/blob/main/i18n/" + lang + ".json";
+    lang_conf[lang] = "/top/darkmaer92.github.io/mx210template.io/i18n/" + lang + ".json";
 
     $.i18n()
       .load(lang_conf)
