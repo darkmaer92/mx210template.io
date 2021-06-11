@@ -17,7 +17,7 @@
             <div class="header__background"></div>
             <nav class="header__content">
                 <div class="header__nav-conteiner">
-                   <a data-i18n="[html]quote" href="#">Quote</a>
+                   <a data-i18n="[html]quote" href="#quote">Quote</a>
                    <a data-i18n="[html]more-info" href="#">More info</a>
                 </div>
                 <div class="header__logo"><a href="#" ><img src="images/Logo_akYtec.svg" alt="akytec_logo"></a></div>
@@ -53,72 +53,76 @@
     </section>
 
 <section class="remout-io">
-    <div class="remout-io__header-background"></div>
+ <!-- <div class="remout-io__header-background"></div> -->
+    
 
-    <h1 class="remout-io__h1" id="extend">Remote I/O modules Mx210 come in useful if you need:</h1>
+    <h1 class="remout-io__h1" id="extend" data-i18n="[html]remout">Remote I/O modules Mx210 come in useful if you need:</h1>
     <nav>
-        <div class="remout-io__header-sticky navbar"></div>
-        <a class="nav-list__item-link" data-i18n="[html]moreInfoH" href="#section-1">Extend</a>
-        <a class="nav-list__item-link" data-i18n="[html]quoteH" href="#section-2">Migrate</a>
-        <a class="nav-list__item-link" data-i18n="[html]partnerH" href="#section-3">Integrate</a>
-        <a class="nav-list__item-link" data-i18n="[html]aboutUsH" href="#section-4">Connect</a>
+      <div class="remout-io__header-sticky navbar"></div>
+        <a class="nav-list__item-link" data-i18n="[html]section-1" href="#section-1">Extend</a>
+        <a class="nav-list__item-link" data-i18n="[html]section-2" href="#section-2">Migrate</a>
+        <a class="nav-list__item-link" data-i18n="[html]section-3" href="#section-3">Integrate</a>
+        <a class="nav-list__item-link" data-i18n="[html]section-4" href="#section-4">Connect</a>
     </nav>
     <section class="app_extend section" id="section-1">  
         <div class="app_extend_form-backround"></div>  
-        <h1 class="app_extend_h1">Flexibly extend existing I/Os<br>of a PLC-based system</h1>
+        <h1 class="app_extend_h1" data-i18n="[html]flexibly_title">Flexibly extend existing I/Os<br>of a PLC-based system</h1>
         <div class="app_extend_row-mx">
             <img src="images/Mx210.png" alt="mx210">
-            <article>The Ethernet I/O-Modules of the MX210 series are available in different variants depending on the combination of the number, type, and properties of their inputs and outputs.
+            <article data-i18n="[html]flexibly_art_1">The Ethernet I/O-Modules of the MX210 series are available in different variants depending on the combination of the number, type, and properties of their inputs and outputs.
             </article>
         </div>
         <div class="app_extend_configur-io">
             <div>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/z0mRd3h_kDA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/7I9xaTV5Js8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-            <article>The analog inputs and outputs of the respective device variant are individually configurable to several signal types, which adds to  the flexibility of your system even more. You can create your own I/O-type combinations within a single device to match the requirements of the task.</article>
+            <article data-i18n="[html]flexibly_art_2">The analog inputs and outputs of the respective device variant are individually configurable to several signal types, which adds to  the flexibility of your system even more. You can create your own I/O-type combinations within a single device to match the requirements of the task.</article>
         </div>
     </section>
     <section class="app_migrate section" id="section-2">
-        <h1 class="app_migrate__h1">Migrate from Fieldbus to Industrial Ethernet<br>
+        <h1 class="app_migrate__h1" data-i18n="[html]migrate_title">Migrate from Fieldbus to Industrial Ethernet<br>
             <span>or create a PLC-based system on Industrial Ethernet</span></h1>
-            <article>
+            <article data-i18n="[html]migrate_art">
                 As compared to fieldbus-based networks, industrial Ethernet communications are much faster, have greater bandwidth, easier upward integration, unlimited node counts, and more topology options. Also, Ethernet networks are far easier to deploy and use than fieldbus technologies.
             </article>
             <div class="app_migrate_scheme">
-                <img src="images/Group 4.png" alt="">
+                <img src="images/OT_IT_MY_white-lined.png" alt="">
             </div>
     </section>
     <section class="app_integrate section" id="section-3">
         <div class="app_integrate__background"></div> 
-        <h1>Smoothly integrate <br>into IIoT infrastructure</h1>
-            <article class="app_integrate__sub-article">
+        <h1 data-i18n="[html]integrate_title">Smoothly integrate <br>into IIoT infrastructure</h1>
+            <article class="app_integrate__sub-article" data-i18n="[html]integrate_art_1">
                 Thanks to the MQTT communication protocol, an Mx210 module can connect to any MQTT brokers providing integration between factory installations and IT-systems / IIoT applications, and thus a range of possibilities, such as remote monitoring and control via any browser-enabled devices, PCs, smartphones, tablets, etc.
             </article>
-            <article class="app_integrate__sup-article">The MQTT technology is easy-to-learn and very smooth at its use:
+            <article class="app_integrate__sup-article" data-i18n="[html]integrate_art_2">The MQTT technology is easy-to-learn and very smooth at its use:
             </article>
-            <div class="app_integrate__img">
-                <img src="images/IIoT applications.png" alt="">
-            </div>
+            <div class="app_integrate__video">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/7I9xaTV5Js8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
 
     </section>
     <section class="app_connect section" id="section-4">
-        <h1>Connect field I/Os without PLC</h1>
-            <article class="app_connect__article">Any Mx210 remote I/O module can operate as a standalone device on a factory floor or in a process plant without any need of a PLC, connecting field I/Os directly to a SCADA system, cloud infrastructure, or an MQTT broker.</article>
-            <div class="app_connect__img">
-                <img src="images/Group 5png.png" alt="">
-            </div>
+        <h1 data-i18n="[html]connect_title">Connect field I/Os without PLC</h1>
+        <div class="app_connect__content">
+          <article class="app_connect__article" data-i18n="[html]connect_art">
+            Any Mx210 remote I/O module can operate as a standalone device on a factory floor or in a process plant without any need of a PLC, connecting field I/Os directly to a SCADA system, cloud infrastructure, or an MQTT broker.</article>
+          <div class="app_connect__img">
+              <img src="images/OT_IT_MY_STANDALONE.png" alt="">
+          </div>
+        </div>
     </section>
 </section>
    
 <section class="features">
-    <div class="features__background-top"></div>
+   <div class="features__background-top"></div>
     <ul class="features__conteiner">
         <li>
           <div class="features__li-conteiner">
             <div class="features__li-description" data-i18n="[html]feature_1">
                 This protocol provides information about Ethernet networks to IT staffers in a friendly manner
             </div>
-            <img class="features__img-li" src="images/icon_1.svg" alt="Sufficient" />
+            <img class="features__img-li" src="images/1_SNMP.svg" alt="Sufficient" />
           </div>
           <div
             class="features__content-li-description"
@@ -130,42 +134,42 @@
 
         <li>
             <div class="features__li-conteiner">
-              <div class="features__li-description" data-i18n="[html]feature_1">
+              <div class="features__li-description" data-i18n="[html]feature_2">
                 It allows daisy-chain topologies and, in turn, saving on cable and additional communication equipment
               </div>
-              <img class="features__img-li" src="images/icon_2.svg" alt="Sufficient" />
+              <img class="features__img-li" src="images/2_2Ethernet.svg" alt="Sufficient" />
             </div>
             <div
               class="features__content-li-description"
-              data-i18n="[html]feature_desc_1"
+              data-i18n="[html]feature_desc_2"
             >
             2-port Ethernet switch
             </div>
           </li>
           <li>
             <div class="features__li-conteiner">
-              <div class="features__li-description" data-i18n="[html]feature_1">
+              <div class="features__li-description" data-i18n="[html]feature_3">
                 Data transfer is not interrupted even if one of the modules fails
               </div>
-              <img class="features__img-li" src="images/icon_3.svg" alt="Sufficient" />
+              <img class="features__img-li" src="images/3_LAN_Bypass.svg" alt="Sufficient" />
             </div>
             <div
               class="features__content-li-description"
-              data-i18n="[html]feature_desc_1"
+              data-i18n="[html]feature_desc_3"
             >
             LAN bypass
             </div>
           </li>
           <li>
             <div class="features__li-conteiner">
-              <div class="features__li-description" data-i18n="[html]feature_1">
+              <div class="features__li-description" data-i18n="[html]feature_4">
                 Thanks to the vertical orientation of I/O terminals, the modules offer more I/O points in the shorter unit of the DIN rail length
               </div>
-              <img class="features__img-li" src="images/icon_4.svg" alt="Sufficient" />
+              <img class="features__img-li" src="images/4_Compactness.svg" alt="Sufficient" />
             </div>
             <div
               class="features__content-li-description"
-              data-i18n="[html]feature_desc_1"
+              data-i18n="[html]feature_desc_4"
             >
             Compactness
             </div>
@@ -179,13 +183,13 @@
 
 <section class="what-modules">
     <div class="what-modules__header-background"></div>
-    <h1 class="what-modules__h1">What modules we offer:</h1>
+    <h1 class="what-modules__h1" data-i18n="[html]what-modules">What modules we offer:</h1>
 
 
     <nav class="tab">
-      <button class="tablinks" onclick="openCity(event, 'Input')" id="defaultOpen">Input</button>
-      <button class="tablinks" onclick="openCity(event, 'InputOutput')">Input & Output</button>
-      <button class="tablinks" onclick="openCity(event, 'Output')">Output</button>
+      <button class="tablinks" onclick="openCity(event, 'Input')" id="defaultOpen" data-i18n="[html]input">Input</button>
+      <button class="tablinks" onclick="openCity(event, 'InputOutput')" data-i18n="[html]input_output">Input & Output</button>
+      <button class="tablinks" onclick="openCity(event, 'Output')" data-i18n="[html]output">Output</button>
     </nav>
     
     <div id="Input" class="tabcontent">
@@ -202,17 +206,17 @@
           <div class="splide__track">
             <ul class="splide__list">
               <li class="splide__slide">
-                <h1 class="what-modules__module-conteiner__h1">Analog input modules<br><span class="what-modules__module-name">(MV210-101)</span></h1>
+                <h1 class="what-modules__module-conteiner__h1" data-i18n="[html]AI_module">Analog input modules<br><span class="what-modules__module-name">(MV210-101)</span></h1>
                 <div class="what-modules__description">
-                    <article>8 individually configurable analog inputs to connect a wide range of sensors, such as RTDs (Pt100/1000, Ni100/1000), TCs, and signals 0-1 V, 0(4)-20 mA.
+                    <article data-i18n="[html]AI_module_art">8 individually configurable analog inputs to connect a wide range of sensors, such as RTDs (Pt100/1000, Ni100/1000), TCs, and signals 0-1 V, 0(4)-20 mA.
                     </article>
                     <div><img src="images/MV210-101.png" alt="mx210"></div>
                 </div>  
               </li>
               <li class="splide__slide">
-                <h1 class="what-modules__module-conteiner__h1">Digital input modules<br><span class="what-modules__module-name">(MV210-202/204/212/214)</span></h1>
+                <h1 class="what-modules__module-conteiner__h1" data-i18n="[html]DI_module">Digital input modules<br><span class="what-modules__module-name">(MV210-202/204/212/214)</span></h1>
                 <div class="what-modules__description">
-                    <article>Up to 32 inputs to connect switch contacts as well as NPN or PNP transistors. High-speed counting with 100-KHz inputs to connect encoders or pulse counters.
+                    <article data-i18n="[html]DI_module_art">Up to 32 inputs to connect switch contacts as well as NPN or PNP transistors. High-speed counting with 100-KHz inputs to connect encoders or pulse counters.
                     </article>
                     <div><img src="images/MV210-101.png" alt="mx210"></div>
                 </div> 
@@ -220,18 +224,18 @@
   
               </li>
               <li class="splide__slide">
-                <h1 class="what-modules__module-conteiner__h1">Digital input module<br><span class="what-modules__module-name">(MV210-221)</span></h1>
+                <h1 class="what-modules__module-conteiner__h1" data-i18n="[html]DI_ACmodule">Digital input module<br><span class="what-modules__module-name">(MV210-221)</span></h1>
                 <div class="what-modules__description">
                     <article>
                       <ul class="splide__slide__list">
-                        <li>- 6 input to connect switch contacts as well as NPN transistors (support for 400-Hz-counting) </li>
-                        <li>- 9 digital inputs for connecting 230 V AC signals for:</li>
+                        <li data-i18n="[html]DI_ACmodule_1">- 6 input to connect switch contacts as well as NPN transistors (support for 400-Hz-counting) </li>
+                        <li data-i18n="[html]DI_ACmodule_2">- 9 digital inputs for connecting 230 V AC signals for:</li>
                         <ul class="splide__slide__sup-list">
-                          <li>determination of the presence or absence of voltage in the network</li>
-                          <li>phase break diagnostics in a three-phase network</li>
-                          <li>phase rotation control</li>
-                          <li>voltage switching counter</li>
-                          <li>other needs</li>
+                          <li data-i18n="[html]DI_ACmodule_3">determination of the presence or absence of voltage in the network</li>
+                          <li data-i18n="[html]DI_ACmodule_4">phase break diagnostics in a three-phase network</li>
+                          <li data-i18n="[html]DI_ACmodule_5">phase rotation control</li>
+                          <li data-i18n="[html]DI_ACmodule_6">voltage switching counter</li>
+                          <li data-i18n="[html]DI_ACmodule_7">other needs</li>
                         </ul>
                       </ul>
                     </article>
@@ -246,36 +250,32 @@
     
     <div id="InputOutput" class="tabcontent">
       <section class="what-modules__module-conteiner">
-        <h1 class="what-modules__module-conteiner__h1">Digital input/output modules<br><span class="what-modules__module-name">(MK210-311/312)</span></h1>
+        <h1 class="what-modules__module-conteiner__h1" data-i18n="[html]DIO_module">Digital input/output modules<br><span class="what-modules__module-name">(MK210-311/312)</span></h1>
                 <div class="what-modules__description">
-                    <article>Convenient combination of inputs and outputs: 
+                    <article data-i18n="[html]DIO_module_1">Convenient combination of inputs and outputs:
                       <ul>
-                        <li>- 6 or 12 digital inputs implemented to be connected to switch contacts or NPN/PNP sensors. No power required to supply the inputs</li>
-                        <li>- 8 or 4 digital outputs (relay)</li>
+                        <li data-i18n="[html]DIO_module_2">- 6 or 12 digital inputs implemented to be connected to switch contacts or NPN/PNP sensors. No power required to supply the inputs</li>
+                        <li data-i18n="[html]DIO_module_3">- 8 or 4 digital outputs (relay)</li>
                       </ul>
                     </article>
                     <div><img src="images/MV210-101.png" alt="mx210"></div>
                 </div>         
       </section>
     </div>
+
     <div id="Output" class="tabcontent">
-
- 
-
-
-
-      <section class="what-modules__module-conteiner">
-        <h1 class="what-modules__module-conteiner__h1">Digital output modules<br><span class="what-modules__module-name">(MU210-401/402/410)</span></h1>
+    <section class="what-modules__module-conteiner">
+        <h1 class="what-modules__module-conteiner__h1" data-i18n="[html]DO_module">Digital output modules<br><span class="what-modules__module-name">(MU210-401/402/410)</span></h1>
                 <div class="what-modules__description">
-                    <article>8 or 16 digital outputs (relay or transistor outputs). The maximum current load is 5 A at 250 V AC or 3A at 24 V DC. Support for pulse-width modulation (PWM) for PID control, etc.
+                    <article data-i18n="[html]DO_module_1">8 or 16 digital outputs (relay or transistor outputs). The maximum current load is 5 A at 250 V AC or 3A at 24 V DC. Support for pulse-width modulation (PWM) for PID control, etc.
                     </article>
                     <div><img src="images/MV210-101.png" alt="mx210"></div>
                 </div>         
       </section>
       <section class="what-modules__module-conteiner last">
-        <h1 class="what-modules__module-conteiner__h1">Analog output module<br><span class="what-modules__module-name">(MU210-501)</span></h1>
+        <h1 class="what-modules__module-conteiner__h1" data-i18n="[html]AO_module">Analog output module<br><span class="what-modules__module-name">(MU210-501)</span></h1>
                 <div class="what-modules__description">
-                    <article>8 analog individually configurable outputs: 0(4)-20 mA, 0-1(10)V. Support for pulse-width modulation (PWM) for PID control, etc. Configurable output signal update rate.
+                    <article data-i18n="[html]AO_module_1">8 analog individually configurable outputs: 0(4)-20 mA, 0-1(10)V. Support for pulse-width modulation (PWM) for PID control, etc. Configurable output signal update rate.
                     </article>
                     <div><img src="images/MV210-101.png" alt="mx210"></div>
                 </div>         
@@ -294,14 +294,14 @@
     <ul class="features__conteiner features_second-part">
         <li>
           <div class="features__li-conteiner">
-            <div class="features__li-description" data-i18n="[html]feature_1">
+            <div class="features__li-description" data-i18n="[html]feature_5">
                 USB-powered in the configuration mode
             </div>
-            <img class="features__img-li" src="images/icon_1.svg" alt="Sufficient" />
+            <img class="features__img-li" src="images/5_USB_powered.svg" alt="Sufficient" />
           </div>
           <div
             class="features__content-li-description"
-            data-i18n="[html]feature_desc_1"
+            data-i18n="[html]feature_desc_5"
           >
           USB-powered
           </div>
@@ -309,42 +309,42 @@
 
         <li>
             <div class="features__li-conteiner">
-              <div class="features__li-description" data-i18n="[html]feature_1">
+              <div class="features__li-description" data-i18n="[html]feature_6">
                 This feature saves commissioning time and enables making similar setups cost-effectively.
               </div>
-              <img class="features__img-li" src="images/icon_2.svg" alt="Sufficient" />
+              <img class="features__img-li" src="images/6_Easy_mass_deployment.svg" alt="Sufficient" />
             </div>
             <div
               class="features__content-li-description"
-              data-i18n="[html]feature_desc_1"
+              data-i18n="[html]feature_desc_6"
             >
             Easy mass deployment
             </div>
           </li>
           <li>
             <div class="features__li-conteiner">
-              <div class="features__li-description" data-i18n="[html]feature_1">
+              <div class="features__li-description" data-i18n="[html]feature_7">
                 Thanks to the support of the SNTP protocol, the built-in real-time clock is synchronized over the network
               </div>
-              <img class="features__img-li" src="images/icon_3.svg" alt="Sufficient" />
+              <img class="features__img-li" src="images/7_real_time_clock.svg" alt="Sufficient" />
             </div>
             <div
               class="features__content-li-description"
-              data-i18n="[html]feature_desc_1"
+              data-i18n="[html]feature_desc_7"
             >
             Built-in real-time clock
             </div>
           </li>
           <li>
             <div class="features__li-conteiner">
-              <div class="features__li-description" data-i18n="[html]feature_1">
+              <div class="features__li-description" data-i18n="[html]feature_8">
                 Each module has FLASH memory for logging. In case of a communication loss, it is possible to recover the missing data.
               </div>
-              <img class="features__img-li" src="images/icon_4.svg" alt="Sufficient" />
+              <img class="features__img-li" src="images/8_Backup.svg" alt="Sufficient" />
             </div>
             <div
               class="features__content-li-description"
-              data-i18n="[html]feature_desc_1"
+              data-i18n="[html]feature_desc_8"
             >
             Support for data logging
             </div>
@@ -352,13 +352,13 @@
       </ul>
 </section>
 <section class="description-table">
-    <h1 class="description-table_h1">Technical data</h1>
+    <h1 class="description-table_h1" id="quote" data-i18n="[html]tech">Technical data</h1>
     <!--  MV210  -->
     <div class="wrapper mv210">
         <table class="table">
           <tbody>
             <tr>
-                <th colspan="7" class="sticky-col first-col table-title">INPUT MODULES</th>
+                <th colspan="7" class="sticky-col first-col table-title" data-i18n="[html]input_module">INPUT MODULES</th>
              </tr>
             <tr>
               <td class="sticky-col first-col table-header">MV210-</td>
@@ -370,7 +370,7 @@
               <td class="table-header">221</td>
             </tr>
             <tr>
-              <td class="sticky-col first-col" data-i18n="td_1">
+              <td class="sticky-col first-col" data-i18n="td_input_1">
                 Number of inputs
               </td>
               <td>8</td>
@@ -381,18 +381,18 @@
               <td>15</td>
             </tr>
             <tr>
-                <td class="sticky-col first-col" data-i18n="td_1">
+                <td class="sticky-col first-col" data-i18n="td_input_2">
                   Input signal
                 </td>
                 <td>RTD, TC,<br>4-20mA, <a href="#">etc</a></td>
-                <td>Switch contact, NPN/PNP</td>
-                <td>Switch contact, NPN</td>
-                <td>Switch contact, NPN/PNP</td>
-                <td>Switch contact, NPN</td>
-                <td>230 VAC signals,<br>dry contact,<br>NPN</td>
+                <td data-i18n="td_input_2_2">Switch contact, NPN/PNP</td>
+                <td data-i18n="td_input_2_3">Switch contact, NPN</td>
+                <td data-i18n="td_input_2_2">Switch contact, NPN/PNP</td>
+                <td data-i18n="td_input_2_3">Switch contact, NPN</td>
+                <td data-i18n="td_input_2_6">230 VAC signals,<br>dry contact,<br>NPN</td>
               </tr>
               <tr>
-                <td class="sticky-col first-col" data-i18n="td_1">
+                <td class="sticky-col first-col" data-i18n="td_input_3">
                     Pulse frequency, max.
                 </td>
                 <td>-</td>
@@ -403,7 +403,7 @@
                 <td>400 Hz</td>
               </tr>
             <tr>
-                <td class="sticky-col first-col" data-i18n="td_1">
+                <td class="sticky-col first-col" data-i18n="td_input_4">
                     Pulse length, min.
                 </td>
                 <td>-</td>
@@ -414,14 +414,14 @@
                 <td>1 ms</td>
             </tr>
             <tr>
-                <td class="sticky-col first-col" data-i18n="td_1">
+                <td class="sticky-col first-col" data-i18n="td_input_5">
                     Integrated voltage source
                 </td>
                 <td>-</td>
-                <td>24±3 VDC</td>
-                <td>24±3 VDC only for NPN inputs</td>
-                <td>24±3 VDC</td>
-                <td colspan="2">24±3 VDC only for NPN inputs</td>
+                <td data-i18n="td_input_5_1">24±3 VDC</td>
+                <td data-i18n="td_input_5_3">24±3 VDC only for NPN inputs</td>
+                <td data-i18n="td_input_5_1">24±3 VDC</td>
+                <td colspan="2" data-i18n="td_input_5_3">24±3 VDC only for NPN inputs</td>
  
             </tr>
               <tr>
@@ -482,7 +482,7 @@
                   </td>
               </tr>
               <tr>
-                <td class="sticky-col first-col last-col" data-i18n="td_10">
+                <td class="sticky-col first-col last-col" data-i18n="td_input_6">
                   Select your device
                 </td>
                 <td>
@@ -537,7 +537,7 @@
         <table class="table">
           <tbody>
             <tr>
-                <th colspan="7" class="sticky-col first-col table-title">DIGITAL INPUT & OUTPUT MODULES</th>
+                <th colspan="7" class="sticky-col first-col table-title" data-i18n="[html]input_output_module">DIGITAL INPUT & OUTPUT MODULES</th>
              </tr>
             <tr>
               <td class="sticky-col first-col table-header">MK210-</td>
@@ -545,84 +545,84 @@
               <td class="table-header">312</td>
             </tr>
             <tr>
-              <td class="sticky-col first-col" data-i18n="td_1">
+              <td class="sticky-col first-col" data-i18n="td_in_out_1">
                 Digital inputs
               </td>
               <td>6</td>
               <td>12</td>
             </tr>
             <tr>
-                <td class="sticky-col first-col" data-i18n="td_1">
+                <td class="sticky-col first-col" data-i18n="td_in_out_2">
                     Input signal
                 </td>
-                <td>Switch contact,<br>NPN</td>
-                <td>Switch contact,<br>NPN/PNP</td>
+                <td data-i18n="td_input_2_3">Switch contact,<br>NPN</td>
+                <td data-i18n="td_input_2_2">Switch contact,<br>NPN/PNP</td>
               </tr>
               <tr>
-                <td class="sticky-col first-col" data-i18n="td_1">
+                <td class="sticky-col first-col" data-i18n="td_in_out_3">
                     Pulse frequency, max.
                 </td>
                 <td>-</td>
                 <td>100 kHz</td>
               </tr>
             <tr>
-                <td class="sticky-col first-col" data-i18n="td_1">
+                <td class="sticky-col first-col" data-i18n="td_in_out_4">
                     Pulse length, min.
                 </td>
                 <td>1 ms</td>
                 <td>5 µs (1-8 DI),<br>1 ms (9-12 DI)</td>
               </tr>
               <tr>
-                <td class="sticky-col first-col" data-i18n="td_1">
+                <td class="sticky-col first-col" data-i18n="td_in_out_5">
                     Integrated voltage source
                 </td>
-                <td>24±3 VDC only for NPN inputs</td>
-                <td>24±3 VDC</td>
+                <td data-i18n="td_input_5_3">24±3 VDC only for NPN inputs</td>
+                <td data-i18n="td_input_5_1">24±3 VDC</td>
               </tr>
               <tr>
-                <td class="sticky-col first-col" data-i18n="td_1">
+                <td class="sticky-col first-col" data-i18n="td_in_out_6">
                     Digital outputs
                 </td>
                 <td>8</td>
                 <td>4</td>
               </tr>
               <tr>
-                <td class="sticky-col first-col" data-i18n="td_1">
+                <td class="sticky-col first-col" data-i18n="td_in_out_7">
                     Type
                 </td>
                 <td>Relay (NO)</td>
                 <td>Relay (NO)</td>
               </tr>
               <tr>
-                <td class="sticky-col first-col" data-i18n="td_1">
+                <td class="sticky-col first-col" data-i18n="td_in_out_8">
                     Permissible load
                 </td>
-                <td>5 A, 250 VAC cosϕ > 0.4,<br>3 A, 30 VDC</td>
-                <td>5 A, 250 VAC cosϕ > 0.4,<br>3 A, 30 VDC</td>
+                <td data-i18n="td_in_out_8_1">5 A, 250 VAC cosϕ > 0.4,<br>3 A, 30 VDC</td>
+                <td data-i18n="td_in_out_8_1">5 A, 250 VAC cosϕ > 0.4,<br>3 A, 30 VDC</td>
               </tr>
               <tr>
                 <td class="sticky-col first-col">PDF</td>
-                <td data-i18n="[html]PR103_Manual_link">
+                <td>
                   <a
                     target="_blank"
                     href="#.pdf"
                     class="btn_rfq_g btn_1"
-                    data-i18n="[html]311_Manual"
+                    data-i18n="[html]Manual"
                     >Manual</a
                   >
                 </td>
-                <td data-i18n="[html]PR102_Manual_link">
+                <td>
                   <a
                     target="_blank"
                     href="#.pdf"
                     class="btn_rfq_g btn_1"
-                    data-i18n="[html]312_Manual"
+                    data-i18n="[html]Manual"
                     >Manual</a
                   >
                 </td>
               </tr>
               <tr>
-                <td class="sticky-col first-col last-col" data-i18n="td_10">
+                <td class="sticky-col first-col last-col" data-i18n="td_input_6">
                   Select your device
                 </td>
                 <td>
@@ -649,7 +649,7 @@
         <table class="table">
           <tbody>
             <tr>
-                <th colspan="7" class="sticky-col first-col table-title">OUTPUT MODULES</th>
+                <th colspan="7" class="sticky-col first-col table-title" data-i18n="[html]output_module">OUTPUT MODULES</th>
              </tr>
             <tr>
               <td class="sticky-col first-col" style="font-weight: 800;font-size: 1.8rem;">MU210-</td>
@@ -659,7 +659,7 @@
               <td class="table-header">501</td>
             </tr>
             <tr>
-              <td class="sticky-col first-col" data-i18n="td_1">
+              <td class="sticky-col first-col" data-i18n="td_output_module_1">
                 Number of outputs
               </td>
               <td>8</td>
@@ -668,26 +668,26 @@
               <td>8</td>
             </tr>
             <tr>
-                <td class="sticky-col first-col" data-i18n="td_1">
+                <td class="sticky-col first-col" data-i18n="td_output_module_2">
                     Output signal
                 </td>
-                <td>Relay (NO)</td>
-                <td>Relay (NO)</td>
-                <td colspan="2">Transistor</td>
+                <td data-i18n="td_output_module_2_2">Relay (NO)</td>
+                <td data-i18n="td_output_module_2_2">Relay (NO)</td>
+                <td colspan="2" data-i18n="td_output_module_2_3">Transistor</td>
                 <td>0(4)-20 mA, 0-1(10)V</td>
               </tr>
               <tr>
-                <td class="sticky-col first-col" data-i18n="td_1">
+                <td class="sticky-col first-col" data-i18n="td_output_module_3">
                     Permissible load
                 </td>
-                <td>5 A, 250 VAC cosϕ > 0.4,<br>3 A, 30 VDC</td>
-                <td>5 A, 250 VAC cosϕ > 0.4,<br>3 A, 30 VDC</td>
-                <td>100 mA, 10...36 VDC</td>
-                <td>800 mA 10...36 VDC</td>
+                <td data-i18n="td_in_out_8_1">5 A, 250 VAC cosϕ > 0.4,<br>3 A, 30 VDC</td>
+                <td data-i18n="td_in_out_8_1">5 A, 250 VAC cosϕ > 0.4,<br>3 A, 30 VDC</td>
+                <td data-i18n="td_output_module_3_3">100 mA, 10...36 VDC</td>
+                <td data-i18n="td_output_module_3_4">800 mA 10...36 VDC</td>
                 <td>-</td>
               </tr>
             <tr>
-                <td class="sticky-col first-col" data-i18n="td_1">
+                <td class="sticky-col first-col" data-i18n="td_output_module_4">
                     Pulse frequency, max.
                 </td>
                 <td>1 Hz</td>
@@ -697,7 +697,7 @@
                 <td>-</td>
             </tr>
             <tr>
-                <td class="sticky-col first-col" data-i18n="td_1">
+                <td class="sticky-col first-col" data-i18n="td_output_module_5">
                     Pulse length, min.
                 </td>
                 <td>50 ms</td>
@@ -708,45 +708,45 @@
             </tr>
             <tr>
                 <td class="sticky-col first-col">PDF</td>
-                <td data-i18n="[html]PR103_Manual_link">
+                <td>
                   <a
                     target="_blank"
                     href="#.pdf"
                     class="btn_rfq_g btn_1"
-                    data-i18n="[html]401_Manual"
+                    data-i18n="[html]Manual"
                     >Manual</a
                   >
                 </td>
-                <td data-i18n="[html]PR102_Manual_link">
+                <td>
                   <a
                     target="_blank"
                     href="#.pdf"
                     class="btn_rfq_g btn_1"
-                    data-i18n="[html]402_Manual"
+                    data-i18n="[html]Manual"
                     >Manual</a
                   >
                 </td>
-                <td colspan="2" data-i18n="[html]PR102_Manual_link">
+                <td colspan="2">
                     <a
                       target="_blank"
                       href="#.pdf"
                       class="btn_rfq_g btn_1"
-                      data-i18n="[html]410_Manual"
+                      data-i18n="[html]Manual"
                       >Manual</a
                     >
                   </td>
-                  <td data-i18n="[html]PR102_Manual_link">
+                  <td>
                     <a
                       target="_blank"
                       href="#.pdf"
                       class="btn_rfq_g btn_1"
-                      data-i18n="[html]501_Manual"
+                      data-i18n="[html]Manual"
                       >Manual</a
                     >
                   </td>
               </tr>
               <tr>
-                <td class="sticky-col first-col last-col" data-i18n="td_10">
+                <td class="sticky-col first-col last-col" data-i18n="td_input_6">
                   Select your device
                 </td>
                 <td>
@@ -787,124 +787,124 @@
           type="submit"
           class="btn_rfq btn_1"
           name="action"
-          data-i18n-value="Free-device-for-test"
+          data-i18n-value="request-trial-device"
           value="Request trial device(s)"
         />
       </div>
 </section>
-<section class="choose-comb">
-    <h1 class="choose-comb_h1">Select your own device(s):</h1>
-    <div >404 Not found</div>
-</section>
+
 <footer class="footer_conteiner footer">
-    <div class="footer_content">
-      <div class="footer_top">
-        <div id="footer" class="footer_top_conteiner">
-          <div class="footer_area" id="block_1">
-            <div>
-              <a href="https://akytec.de/en/" target="_blank">
-                <img
-                  class="GTM_logo_PR102"
-                  src="images/akYtec_white.svg"
-                  alt="akytec_logo"
-                />
-              </a>
-            </div>
-            <div data-i18n="footer_about">
-              akYtec GmbH from Hanover, Germany develops and distributes
-              innovative automation technology and industrial electronic
-              products. These include various digital displays, control panels
-              and programmable relays.
-            </div>
+  <div class="footer_content">
+    <div class="footer_top">
+      <div id="footer" class="footer_top_conteiner">
+        <div class="footer_area" id="block_1">
+          <div>
+            <a href="https://akytec.de/en/" target="_blank">
+              <img
+                class="GTM_logo_PR102"
+                src="images/akYtec_white.svg"
+                alt="akytec_logo"
+              />
+            </a>
           </div>
+          <div data-i18n="footer_about">
+            akYtec GmbH from Hanover, Germany develops and distributes
+            innovative automation technology and industrial electronic
+            products. These include various digital displays, control panels
+            and programmable relays.
+          </div>
+        </div>
 
-          <div class="footer_area" id="block_2">
-            <div><h6 data-i18n="links">LINKS</h6></div>
-            <ul>
-              <li>
-                <a href="https://akytec.de/en/impressum" title="Imprint"
-                  >Imprint</a
+        <div class="footer_area" id="block_2">
+          <div><h6 data-i18n="links">LINKS</h6></div>
+          <ul>
+            <li>
+              <a href="https://akytec.de/en/impressum" title="Imprint"
+                >Imprint</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://akytec.de/en/datenschutzerklarung"
+                title="Privacy Policy"
+                >Privacy Policy</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footer_area" id="block_3">
+          <div><h6 data-i18n="contact_us">CONTACT US</h6></div>
+          <ul>
+            <li class="address">
+              <div class="inner_contact">
+                <strong>akYtec GmbH</strong><br />Vahrenwalder Str. 269 A
+                <br />30179 Hannover, Germany
+              </div>
+            </li>
+            <li class="phoneno">
+              <div class="inner_contact">
+                <strong>
+                  Tel: +49 (0) 511 / 16 59 672-0<br />Fax: +49 (0) 511 / 16
+                  59 672-9</strong
                 >
-              </li>
-              <li>
-                <a
-                  href="https://akytec.de/en/datenschutzerklarung"
-                  title="Privacy Policy"
-                  >Privacy Policy</a
+              </div>
+            </li>
+            <li class="email">
+              <div class="inner_contact">
+                <strong
+                  ><a href="mailto:info@akytec.de"
+                    >info@akytec.de</a
+                  ></strong
                 >
-              </li>
-            </ul>
-          </div>
-          <div class="footer_area" id="block_3">
-            <div><h6 data-i18n="contact_us">CONTACT US</h6></div>
-            <ul>
-              <li class="address">
-                <div class="inner_contact">
-                  <strong>akYtec GmbH</strong><br />Vahrenwalder Str. 269 A
-                  <br />30179 Hannover, Germany
-                </div>
-              </li>
-              <li class="phoneno">
-                <div class="inner_contact">
-                  <strong>
-                    Tel: +49 (0) 511 / 16 59 672-0<br />Fax: +49 (0) 511 / 16
-                    59 672-9</strong
-                  >
-                </div>
-              </li>
-              <li class="email">
-                <div class="inner_contact">
-                  <strong
-                    ><a href="mailto:info@akytec.de"
-                      >info@akytec.de</a
-                    ></strong
-                  >
-                </div>
-              </li>
-            </ul>
-          </div>
+              </div>
+            </li>
+          </ul>
+        </div>
 
-          <div class="footer_area" id="block_4">
-            <div><h6 data-i18n="[html]local_partner">LOCAL PARTNER</h6></div>
-            <ul>
-              <li>
-                <div data-i18n="[html]company">
-                  <strong>akYtec GmbH</strong>
-                </div>
+        <div class="footer_area" id="block_4">
+          <div><h6 data-i18n="[html]local_partner">LOCAL PARTNER</h6></div>
+          <ul>
+            <li>
+              <div data-i18n="[html]company">
+                <strong>akYtec GmbH</strong>
+              </div>
 
-                <div data-i18n="[html]country">
-                  Vahrenwalder Str. 269 A <br />30179 Hannover, Germany
-                </div>
-              </li>
-              <li>
-                <div data-i18n="[html]phnumber">
-                  <strong
-                    >Tel: +49 (0) 511 / 16 59 672-0<br />Fax: +49 (0) 511 / 16
-                    59 672-9</strong
-                  >
-                </div>
-              </li>
-              <li>
-                <div data-i18n="[html]link">
-                  <strong
-                    ><a href="mailto:info@akytec.de"
-                      >info@akytec.de</a
-                    ></strong
-                  >
-                </div>
-              </li>
-            </ul>
-          </div>
+              <div data-i18n="[html]country">
+                Vahrenwalder Str. 269 A <br />30179 Hannover, Germany
+              </div>
+            </li>
+            <li>
+              <div data-i18n="[html]phnumber">
+                <strong
+                  >Tel: +49 (0) 511 / 16 59 672-0<br />Fax: +49 (0) 511 / 16
+                  59 672-9</strong
+                >
+              </div>
+            </li>
+            <li>
+              <div data-i18n="[html]link">
+                <strong
+                  ><a href="mailto:info@akytec.de"
+                    >info@akytec.de</a
+                  ></strong
+                >
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
+  </div>
 
-    <div class="footer_bottom">
-      <div class="footer_left">
-        <address>&copy; 2021 akYtec . All Rights Reserved.</address>
-      </div>
+  <div class="footer_bottom">
+    <div class="footer_left">
+      <address>&copy; 2021 akYtec . All Rights Reserved.</address>
     </div>
-  </footer>
+  </div>
+</footer>
+
+
+
   <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
   <script
     src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
@@ -966,8 +966,8 @@
   ></script>
   <script src="js/splide.min.js"></script>
   <script>
-    new Splide(".splide").mount();
 
+    
     
   </script>
     <script src="js/lang-mx.js"></script>
